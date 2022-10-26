@@ -7,22 +7,46 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
-            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
+            "show_overlay_text": false,
             "title": "",
+            "heading_size": 11,
             "description": "",
+            "text_size": 5,
             "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
             "link_text": "",
             "link": "shopify:\/\/collections",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--input btn--outline lnw caps"
           }
+        },
+        "667fd00a-6154-478a-a2ed-db8339efaa1e": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Image slide",
+            "heading_size": 11,
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
         }
       },
       "block_order": [
-        "b40d6da1-bf36-4636-9166-460735536c00"
+        "b40d6da1-bf36-4636-9166-460735536c00",
+        "667fd00a-6154-478a-a2ed-db8339efaa1e"
       ],
       "settings": {
         "height": "image-height",
@@ -37,7 +61,10 @@
       "settings": {
         "width": "wrapper",
         "align_text": "text-left",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "image-with-text": {
@@ -48,10 +75,15 @@
           "settings": {
             "bg_position": "center-center",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
             "title": "",
+            "heading_size": 7,
             "description": "",
+            "text_size": 3,
             "flex_align": "align--middle-left",
+            "bg_color": "",
+            "color": "#FFFFFF",
             "link_text": "",
             "link": "\/collections\/all",
             "button_color": "btn--white",
@@ -62,6 +94,7 @@
           "type": "text",
           "settings": {
             "subheading": "Delete your apps",
+            "subheading_size": 3,
             "title": "Broadcast has that feature",
             "heading_size": 7,
             "text": "<p>Upsells, promos, shipping calculators, Broadcast has it all. Try deleting this block and replacing it with a collection, newsletter, video, or testimonial. Broadcast has the power and flexibility you need.<\/p>",
@@ -69,10 +102,12 @@
             "text_columns": 1,
             "align_text": "text-left",
             "bg_color": "#ffffff",
+            "color": "",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
           }
         }
       },
@@ -82,8 +117,11 @@
       ],
       "settings": {
         "height": "screen-height-one-half",
+        "width": "wrapper--full",
         "padding": true,
-        "borders": false
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "product-with-image": {
@@ -95,16 +133,28 @@
           "settings": {
             "title": "Sell with style",
             "product": "",
-            "bg_color": "#ffffff"
+            "bg_color": "#ffffff",
+            "color": ""
           }
         },
         "image": {
           "type": "image",
           "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
             "title": "Commerce first",
+            "heading_size": 7,
             "description": "Focus on your products with innovative sections focused on selling",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
             "link_text": "",
-            "link": "\/collections\/all"
+            "link": "\/collections\/all",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
           }
         }
       },
@@ -113,7 +163,12 @@
         "image"
       ],
       "settings": {
-        "padding": true
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "padding": true,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "tabs": {
@@ -122,13 +177,35 @@
         "tabs-0": {
           "type": "collection",
           "settings": {
-            "title": ""
+            "title": "",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
           }
         },
         "tabs-1": {
           "type": "collection",
           "settings": {
-            "title": ""
+            "title": "",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
           }
         }
       },
@@ -137,7 +214,13 @@
         "tabs-1"
       ],
       "settings": {
-        "title": ""
+        "title": "",
+        "text_alignment": "stacked",
+        "show_product_count": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "rich-text": {
@@ -145,7 +228,10 @@
       "settings": {
         "width": "wrapper",
         "align_text": "text-left",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "lookbook": {
@@ -174,7 +260,13 @@
       ],
       "settings": {
         "bg_position": "left-center",
-        "title": "Shop the look"
+        "title": "Shop the look",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured-collection": {
@@ -183,8 +275,18 @@
         "heading": "Featured Collection",
         "description": "",
         "text_alignment": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "",
         "grid": 4,
-        "rows": 2
+        "rows": 2,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "hero": {
@@ -194,11 +296,13 @@
         "height": "screen-height-three-quarters",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
+        "show_overlay_text": false,
         "title": "Broadcast theme",
         "heading_size": 9,
         "description": "Modern commerce built for speed",
         "text_size": 5,
         "flex_align": "align--middle-left",
+        "bg_color": "",
         "color": "#212121",
         "link_text": "View products",
         "link": "",
@@ -239,7 +343,10 @@
       "settings": {
         "title": "Press",
         "logo_opacity": 60,
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 46,
+        "padding_bottom": 46
       }
     },
     "icons": {
@@ -280,9 +387,20 @@
       ],
       "settings": {
         "text_alignment": "left",
+        "icon_size": 20,
         "icon_alignment": "icon--top",
         "heading_size": "h6",
-        "bg_color": "#fafafa"
+        "bg_color": "#fafafa",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "5ba302a6-c81a-4d62-8de3-2f785747e094": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "adidas",
+        "controls-position": "left"
       }
     }
   },
@@ -297,6 +415,7 @@
     "featured-collection",
     "hero",
     "logos",
-    "icons"
+    "icons",
+    "5ba302a6-c81a-4d62-8de3-2f785747e094"
   ]
 }
