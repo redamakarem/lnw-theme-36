@@ -12,9 +12,14 @@
             "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
+            "show_overlay_text": false,
             "title": "",
+            "heading_size": 11,
             "description": "",
+            "text_size": 5,
             "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
             "link_text": "",
             "link": "shopify:\/\/collections",
             "button_color": "btn--white",
@@ -28,10 +33,15 @@
             "image": "shopify:\/\/shop_images\/award_winning_vibes.png",
             "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
             "title": "",
+            "heading_size": 11,
             "description": "",
+            "text_size": 5,
             "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
             "link_text": "",
             "link": "shopify:\/\/collections",
             "button_color": "btn--white",
@@ -178,7 +188,10 @@
       "settings": {
         "title": "",
         "logo_opacity": 65,
-        "bg_color": "#435562"
+        "bg_color": "#435562",
+        "color": "",
+        "padding_top": 46,
+        "padding_bottom": 46
       }
     },
     "16589478971c3227ea": {
@@ -318,7 +331,10 @@
         "icon_size": 25,
         "icon_alignment": "icon--top",
         "heading_size": "h5",
-        "bg_color": "#fca38d"
+        "bg_color": "#fca38d",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "1660686550db8b3a9c": {
@@ -331,9 +347,14 @@
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
+            "show_overlay_text": false,
             "title": "",
+            "heading_size": 7,
             "description": "",
+            "text_size": 3,
             "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
             "link_text": "",
             "link": "",
             "button_color": "btn--white",
@@ -344,16 +365,20 @@
           "type": "text",
           "settings": {
             "subheading": "",
+            "subheading_size": 3,
             "title": "",
+            "heading_size": 7,
             "text": "<p><em>\"We have partnered with One Tree Planted, a non-profit organization on a mission to help the earth by planting trees. For every Love Not War purchase on our website, we will plant a tree.\"<\/em><\/p>",
             "text_size": 4,
             "text_columns": 1,
             "align_text": "text-left",
             "bg_color": "#f0eeec",
+            "color": "",
             "button_text": "Learn more",
             "button_url": "shopify:\/\/pages\/one-tree-planted",
             "button_color": "btn--neutral",
-            "button_style": "lnw__btn"
+            "button_style": "lnw__btn",
+            "show_social_links": false
           }
         }
       },
@@ -363,8 +388,11 @@
       ],
       "settings": {
         "height": "image-height",
+        "width": "wrapper--full",
         "padding": false,
-        "borders": false
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1664530854617d9b35": {
@@ -404,8 +432,16 @@
         "f99ed243-ff39-49a2-b29d-fe87b1277821"
       ],
       "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
         "text_align": "text-left",
-        "bg_color": "#fa5e41"
+        "text_size": 4,
+        "bg_color": "#fa5e41",
+        "color": "#ffffff",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "166452763576c5c04e": {
@@ -420,7 +456,11 @@
         "show_author": false,
         "show_date": false,
         "show_button": true,
-        "show_comments": false
+        "show_comments": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16593604036b256fa6": {
@@ -558,7 +598,10 @@
         "equalize_height": true,
         "photo_aspect_ratio": 1,
         "enable_image": true,
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
