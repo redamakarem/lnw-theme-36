@@ -26004,6 +26004,9 @@ body.is-focused .quick-add__holder:focus-within {
 
 /* Reverse scroll css */
 
+html{
+  scroll-behavior: smooth;
+}
 body{
   padding: 0px;
   margin: 0px;
