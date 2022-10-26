@@ -56,13 +56,6 @@
         "autoplay_speed": 4
       }
     },
-    "5ba302a6-c81a-4d62-8de3-2f785747e094": {
-      "type": "collection-lnw",
-      "settings": {
-        "collection-slider": "adidas",
-        "controls-position": "left"
-      }
-    },
     "41994f60-1639-4e07-acee-b7beca6a0d9b": {
       "type": "lnw-split-scroll",
       "blocks": {
@@ -143,11 +136,18 @@
       "settings": {
         "lnw-split-scroll": "test"
       }
+    },
+    "5ba302a6-c81a-4d62-8de3-2f785747e094": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "adidas",
+        "controls-position": "left"
+      }
     }
   },
   "order": [
     "slideshow",
-    "5ba302a6-c81a-4d62-8de3-2f785747e094",
-    "41994f60-1639-4e07-acee-b7beca6a0d9b"
+    "41994f60-1639-4e07-acee-b7beca6a0d9b",
+    "5ba302a6-c81a-4d62-8de3-2f785747e094"
   ]
 }
