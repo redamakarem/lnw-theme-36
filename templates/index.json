@@ -16,7 +16,7 @@
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "shopify:\/\/collections",
             "button_color": "btn--white",
@@ -28,7 +28,7 @@
           "settings": {
             "bg_position": "center-center",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "Image slide",
             "heading_size": 11,
@@ -36,7 +36,7 @@
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_color": "btn--white",
@@ -56,366 +56,23 @@
         "autoplay_speed": 4
       }
     },
-    "docs": {
-      "type": "section-rich-text",
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "image-with-text": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image": {
-          "type": "image",
-          "settings": {
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-left",
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "link_text": "",
-            "link": "\/collections\/all",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "subheading": "Delete your apps",
-            "subheading_size": 3,
-            "title": "Broadcast has that feature",
-            "heading_size": 7,
-            "text": "<p>Upsells, promos, shipping calculators, Broadcast has it all. Try deleting this block and replacing it with a collection, newsletter, video, or testimonial. Broadcast has the power and flexibility you need.<\/p>",
-            "text_size": 3,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "#ffffff",
-            "color": "",
-            "button_text": "",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "hero__btn btn btn--large btn--outline caps",
-            "show_social_links": false
-          }
-        }
-      },
-      "block_order": [
-        "image",
-        "text"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "width": "wrapper--full",
-        "padding": true,
-        "borders": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "product-with-image": {
-      "type": "section-custom-content",
-      "disabled": true,
-      "blocks": {
-        "product": {
-          "type": "product",
-          "settings": {
-            "title": "Sell with style",
-            "product": "",
-            "bg_color": "#ffffff",
-            "color": ""
-          }
-        },
-        "image": {
-          "type": "image",
-          "settings": {
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "show_overlay_text": false,
-            "title": "Commerce first",
-            "heading_size": 7,
-            "description": "Focus on your products with innovative sections focused on selling",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "link_text": "",
-            "link": "\/collections\/all",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        }
-      },
-      "block_order": [
-        "product",
-        "image"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "width": "wrapper--full",
-        "padding": true,
-        "borders": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "tabs": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "tabs-0": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        },
-        "tabs-1": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
-        }
-      },
-      "block_order": [
-        "tabs-0",
-        "tabs-1"
-      ],
-      "settings": {
-        "title": "",
-        "text_alignment": "stacked",
-        "show_product_count": false,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "rich-text": {
-      "type": "section-rich-text",
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "lookbook": {
-      "type": "section-look",
-      "blocks": {
-        "lookbook-0": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "position_x": 18,
-            "position_y": 50
-          }
-        },
-        "lookbook-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "position_x": 41,
-            "position_y": 7
-          }
-        }
-      },
-      "block_order": [
-        "lookbook-0",
-        "lookbook-1"
-      ],
-      "settings": {
-        "bg_position": "left-center",
-        "title": "Shop the look",
-        "bg_color": "",
-        "color": "",
-        "dot_color": "",
-        "dot_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "featured-collection": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "Featured Collection",
-        "description": "",
-        "text_alignment": "center",
-        "link_text": "",
-        "link_url": "",
-        "button_color": "btn--black",
-        "button_style": "hero__btn btn btn--input btn--outline caps",
-        "featured_collection": "",
-        "grid": 4,
-        "rows": 2,
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "hero": {
-      "type": "section-hero",
-      "settings": {
-        "bg_position": "center-center",
-        "height": "screen-height-three-quarters",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "title": "Broadcast theme",
-        "heading_size": 9,
-        "description": "Modern commerce built for speed",
-        "text_size": 5,
-        "flex_align": "align--middle-left",
-        "bg_color": "",
-        "color": "#212121",
-        "link_text": "View products",
-        "link": "",
-        "button_color": "btn--black",
-        "button_style": "hero__btn btn btn--large btn--outline caps"
-      }
-    },
-    "logos": {
-      "type": "section-press",
-      "blocks": {
-        "logos-0": {
-          "type": "logo-item",
-          "settings": {
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "logo_width": 100
-          }
-        },
-        "logos-1": {
-          "type": "logo-item",
-          "settings": {
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "logo_width": 100
-          }
-        },
-        "logos-2": {
-          "type": "logo-item",
-          "settings": {
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "logo_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "logos-0",
-        "logos-1",
-        "logos-2"
-      ],
-      "settings": {
-        "title": "Press",
-        "logo_opacity": 60,
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 46,
-        "padding_bottom": 46
-      }
-    },
-    "icons": {
-      "type": "section-text-row",
-      "blocks": {
-        "icon-0": {
-          "type": "text-item",
-          "settings": {
-            "icon_name": "icon-lock-card",
-            "icon_color": "#545454",
-            "title": "Secure transactions",
-            "text": "Transactions are handled with bank-grade security."
-          }
-        },
-        "icon-1": {
-          "type": "text-item",
-          "settings": {
-            "icon_name": "icon-basket-like",
-            "icon_color": "#545454",
-            "title": "Simple checkout",
-            "text": "Our secure checkout is quick and easy to use."
-          }
-        },
-        "icon-2": {
-          "type": "text-item",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_color": "#545454",
-            "title": "Get in touch",
-            "text": "Have questions? Get in touch with us at any time."
-          }
-        }
-      },
-      "block_order": [
-        "icon-0",
-        "icon-1",
-        "icon-2"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "icon_size": 20,
-        "icon_alignment": "icon--top",
-        "heading_size": "h6",
-        "bg_color": "#fafafa",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "5ba302a6-c81a-4d62-8de3-2f785747e094": {
       "type": "collection-lnw",
       "settings": {
         "collection-slider": "adidas",
         "controls-position": "left"
       }
+    },
+    "41994f60-1639-4e07-acee-b7beca6a0d9b": {
+      "type": "lnw-split-scroll",
+      "settings": {
+        "lnw-split-scroll": "test"
+      }
     }
   },
   "order": [
     "slideshow",
-    "docs",
-    "image-with-text",
-    "product-with-image",
-    "tabs",
-    "rich-text",
-    "lookbook",
-    "featured-collection",
-    "hero",
-    "logos",
-    "icons",
-    "5ba302a6-c81a-4d62-8de3-2f785747e094"
+    "5ba302a6-c81a-4d62-8de3-2f785747e094",
+    "41994f60-1639-4e07-acee-b7beca6a0d9b"
   ]
 }
