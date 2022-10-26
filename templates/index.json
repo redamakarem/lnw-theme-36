@@ -145,11 +145,19 @@
         "collection-slider": "adidas",
         "controls-position": "right"
       }
+    },
+    "3630ed4f-8f17-421d-8995-dadf51efa3d0": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "heads",
+        "controls-position": "left"
+      }
     }
   },
   "order": [
     "slideshow",
     "41994f60-1639-4e07-acee-b7beca6a0d9b",
-    "5ba302a6-c81a-4d62-8de3-2f785747e094"
+    "5ba302a6-c81a-4d62-8de3-2f785747e094",
+    "3630ed4f-8f17-421d-8995-dadf51efa3d0"
   ]
 }
