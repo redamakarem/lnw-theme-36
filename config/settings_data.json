@@ -31,6 +31,8 @@
     "type_body_size": 100,
     "product_grid_outline": false,
     "show_scroll_top_button": true,
+    "instagram_link": "https:\/\/www.instagram.com\/_lovenotwar\/",
+    "twitter_link": "https:\/\/twitter.com\/L0veNotWar",
     "product_grid_aspect_ratio": 0.9,
     "sale_bg_color": "#f9dee5",
     "sale_text_color": "#af7b88",
@@ -161,6 +163,7 @@
           },
           "footer-2": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "image_width": 150,
               "title": "Contact",
