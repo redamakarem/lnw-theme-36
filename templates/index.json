@@ -1,1 +1,154 @@
-{"sections":{"slideshow":{"type":"section-slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"title":"Broadcast theme","description":"A full featured Shopify theme built for modern commerce","color":"#ffffff"}},"slideshow-1":{"type":"image","settings":{"title":"Broadcast theme","description":"It's like your last theme, except it's faster and better","color":"#ffffff"}}},"block_order":["slideshow-0","slideshow-1"],"settings":{"height":"screen-height-two-thirds","transition":"slide","arrows_style":false,"autoplay":false}},"docs":{"type":"section-rich-text","settings":{"width":"wrapper","align_text":"text-left","bg_color":"#ffffff"}},"image-with-text":{"type":"section-custom-content","blocks":{"image":{"type":"image","settings":{"bg_position":"center-center","overlay_opacity":0,"overlay_color":"#000","title":"","description":"","flex_align":"align--middle-left","link_text":"","link":"\/collections\/all","button_color":"btn--white","button_style":"hero__btn btn btn--large btn--outline caps"}},"text":{"type":"text","settings":{"subheading":"Delete your apps","title":"Broadcast has that feature","heading_size":7,"text":"<p>Upsells, promos, shipping calculators, Broadcast has it all. Try deleting this block and replacing it with a collection, newsletter, video, or testimonial. Broadcast has the power and flexibility you need.<\/p>","text_size":3,"text_columns":1,"align_text":"text-left","bg_color":"#ffffff","button_text":"","button_url":"","button_color":"btn--neutral","button_style":"hero__btn btn btn--large btn--outline caps"}}},"block_order":["image","text"],"settings":{"height":"screen-height-one-half","padding":true,"borders":false}},"product-with-image":{"type":"section-custom-content","disabled":true,"blocks":{"product":{"type":"product","settings":{"title":"Sell with style","product":"","bg_color":"#ffffff"}},"image":{"type":"image","settings":{"title":"Commerce first","description":"Focus on your products with innovative sections focused on selling","link_text":"","link":"\/collections\/all"}}},"block_order":["product","image"],"settings":{"padding":true}},"tabs":{"type":"section-tab-collections","blocks":{"tabs-0":{"type":"collection","settings":{"title":""}},"tabs-1":{"type":"collection","settings":{"title":""}}},"block_order":["tabs-0","tabs-1"],"settings":{"title":""}},"rich-text":{"type":"section-rich-text","settings":{"width":"wrapper","align_text":"text-left","bg_color":"#ffffff"}},"lookbook":{"type":"section-look","blocks":{"lookbook-0":{"type":"product","settings":{"product":"","position_x":18,"position_y":50}},"lookbook-1":{"type":"product","settings":{"product":"","position_x":41,"position_y":7}}},"block_order":["lookbook-0","lookbook-1"],"settings":{"bg_position":"left-center","title":"Shop the look"}},"featured-collection":{"type":"section-collection","settings":{"heading":"Featured Collection","description":"","text_alignment":"center","grid":4,"rows":2}},"hero":{"type":"section-hero","settings":{"bg_position":"center-center","height":"screen-height-three-quarters","overlay_opacity":0,"overlay_color":"#000000","title":"Broadcast theme","heading_size":9,"description":"Modern commerce built for speed","text_size":5,"flex_align":"align--middle-left","color":"#212121","link_text":"View products","link":"","button_color":"btn--black","button_style":"hero__btn btn btn--large btn--outline caps"}},"logos":{"type":"section-press","blocks":{"logos-0":{"type":"logo-item","settings":{"description":"<p>Include a brief quote from a brand that loves your products<\/p>","logo_width":100}},"logos-1":{"type":"logo-item","settings":{"description":"<p>Include a brief quote from a brand that loves your products<\/p>","logo_width":100}},"logos-2":{"type":"logo-item","settings":{"description":"<p>Include a brief quote from a brand that loves your products<\/p>","logo_width":100}}},"block_order":["logos-0","logos-1","logos-2"],"settings":{"title":"Press","logo_opacity":60,"bg_color":"#ffffff"}},"icons":{"type":"section-text-row","blocks":{"icon-0":{"type":"text-item","settings":{"icon_name":"icon-lock-card","icon_color":"#545454","title":"Secure transactions","text":"Transactions are handled with bank-grade security."}},"icon-1":{"type":"text-item","settings":{"icon_name":"icon-basket-like","icon_color":"#545454","title":"Simple checkout","text":"Our secure checkout is quick and easy to use."}},"icon-2":{"type":"text-item","settings":{"icon_name":"icon-chat","icon_color":"#545454","title":"Get in touch","text":"Have questions? Get in touch with us at any time."}}},"block_order":["icon-0","icon-1","icon-2"],"settings":{"text_alignment":"left","icon_alignment":"icon--top","heading_size":"h6","bg_color":"#fafafa"}}},"order":["slideshow","docs","image-with-text","product-with-image","tabs","rich-text","lookbook","featured-collection","hero","logos","icons"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "b40d6da1-bf36-4636-9166-460735536c00": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 20,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 11,
+            "description": "",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "shopify:\/\/collections",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input btn--outline lnw caps"
+          }
+        },
+        "667fd00a-6154-478a-a2ed-db8339efaa1e": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Image slide",
+            "heading_size": 11,
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "b40d6da1-bf36-4636-9166-460735536c00",
+        "667fd00a-6154-478a-a2ed-db8339efaa1e"
+      ],
+      "settings": {
+        "height": "image-height",
+        "transition": "slide",
+        "arrows_style": false,
+        "autoplay": true,
+        "autoplay_speed": 4
+      }
+    },
+    "41994f60-1639-4e07-acee-b7beca6a0d9b": {
+      "type": "lnw-split-scroll",
+      "blocks": {
+        "d3801402-990e-483a-b530-f75c727fd161": {
+          "type": "first-column-elements",
+          "settings": {
+            "first-column-heading": "WHY CHOOSE LOVE NOT WAR?",
+            "first-column-text": "<p><br\/>Award-winning, sustainable sex toys that don’t cost the earth. <\/p><p>All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
+            "first-column-btn-text": "",
+            "first-column-btn-link": "",
+            "button_color": "btn--white",
+            "first-column-btn-style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "2e0eef6b-0199-4729-8de7-f8fe618fc02c": {
+          "type": "second-column-elements",
+          "settings": {
+            "second-column-image": "shopify:\/\/shop_images\/Mask_group.png",
+            "second-column-heading": "",
+            "second-column-text": "",
+            "second-column-btn-text": "",
+            "second-column-btn-link": "",
+            "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "3a23195a-c409-4033-9b22-363525e1ef61": {
+          "type": "second-column-elements",
+          "settings": {
+            "second-column-heading": "Pleasure that doesn’t cost the earth",
+            "second-column-text": "<p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created the first-ever range of eco-friendly sex toys made from recycled and recyclable materials.<\/p><p>Our products are good for your body and the planet.  <\/p>",
+            "second-column-btn-text": "",
+            "second-column-btn-link": "",
+            "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "ac846406-ff61-4d8a-ad2d-bd72dcb7e1ef": {
+          "type": "first-column-elements",
+          "settings": {
+            "first-column-image": "shopify:\/\/shop_images\/banner.png",
+            "first-column-heading": "",
+            "first-column-text": "",
+            "first-column-btn-text": "",
+            "first-column-btn-link": "",
+            "button_color": "btn--white",
+            "first-column-btn-style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "8887efe4-4b3d-4992-8ae3-708feb706cc4": {
+          "type": "first-column-elements",
+          "settings": {
+            "first-column-heading": "The heads collection",
+            "first-column-text": "<p>Did you know that you only need ONE vibrating base for the entire LOVE NOT WAR heads range? Saving the earth, and your pocket, one O at a time. <\/p><p>It’s our sleek, innovative design that has helped us make a splash in the industry and led us to so many award wins in such a short space of time.<br\/><\/p>",
+            "first-column-btn-text": "",
+            "first-column-btn-link": "",
+            "button_color": "btn--white",
+            "first-column-btn-style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "d63588c1-7191-4920-8fe1-9b43a4ed2dee": {
+          "type": "second-column-elements",
+          "settings": {
+            "second-column-image": "shopify:\/\/shop_images\/Mask_group.png",
+            "second-column-heading": "",
+            "second-column-text": "",
+            "second-column-btn-text": "",
+            "second-column-btn-link": "",
+            "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "d3801402-990e-483a-b530-f75c727fd161",
+        "2e0eef6b-0199-4729-8de7-f8fe618fc02c",
+        "3a23195a-c409-4033-9b22-363525e1ef61",
+        "ac846406-ff61-4d8a-ad2d-bd72dcb7e1ef",
+        "8887efe4-4b3d-4992-8ae3-708feb706cc4",
+        "d63588c1-7191-4920-8fe1-9b43a4ed2dee"
+      ],
+      "settings": {
+        "lnw-split-scroll": "test"
+      }
+    },
+    "5ba302a6-c81a-4d62-8de3-2f785747e094": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "adidas",
+        "controls-position": "left"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "41994f60-1639-4e07-acee-b7beca6a0d9b",
+    "5ba302a6-c81a-4d62-8de3-2f785747e094"
+  ]
+}
