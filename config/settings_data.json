@@ -84,10 +84,15 @@
           "header_sticky": false,
           "header_style": "logo_beside",
           "icon_family": "clean",
+          "icon_size": "regular",
+          "icon_as_circle": false,
           "logo": "shopify:\/\/shop_images\/lnw-horizontal_1_0b2a5602-9bfa-478c-b74d-c21e3accddb2.png",
           "logo_max_limit": 150,
           "main_menu_linklist": "",
           "enable_search": true,
+          "show_social_icons": true,
+          "highlight_item": "Sale",
+          "highlight_item_color": "#D02E2E",
           "transparent_home": false,
           "transparent_collection": false,
           "transparent_article": false,
@@ -129,6 +134,8 @@
         ],
         "settings": {
           "layout": "slider",
+          "slider_speed": 7,
+          "marquee_speed": 100,
           "bg_color": "#fa5e41",
           "color": "#ffffff"
         }
@@ -146,12 +153,19 @@
           "08ad2fad-40ec-4115-b43c-63fab2a43e1d": {
             "type": "social",
             "settings": {
-              "title": "Social"
+              "title": "Social",
+              "text": "<p>Stay current with updates from our social channels.<\/p>"
             }
           },
           "footer-2": {
             "type": "newsletter",
             "settings": {
+              "title": "Newsletter",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. View our Privacy Policy and Terms of Services<\/p>",
+              "show_name": true,
+              "button_text": "Join",
+              "button_color": "btn--neutral",
+              "show_social_links": false
             }
           }
         },
@@ -161,6 +175,7 @@
           "footer-2"
         ],
         "settings": {
+          "width": "wrapper--full",
           "logo_image_width": 150,
           "bg_position": "center-center",
           "overlay_opacity": 75,
@@ -169,7 +184,9 @@
           "footer_payment_enable": true,
           "show_locale_selector": true,
           "show_currency_selector": true,
-          "type": "currency"
+          "type": "currency",
+          "padding_top": 75,
+          "padding_bottom": 65
         }
       },
       "popups": {
@@ -191,7 +208,9 @@
               "title": "Newsletter",
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "bg_color": "#ffffff",
+              "color": "",
               "newsletter_enable": true,
+              "show_name": false,
               "button_text": "Join",
               "button_color": "btn--neutral",
               "trigger": "always",
@@ -209,6 +228,7 @@
             "settings": {
               "title": "Text block",
               "text": "<p>Use this text to share announcements or sales.<\/p>",
+              "color": "",
               "bg_color": "#ffffff",
               "button_text": "Learn more",
               "button_url": "",
@@ -230,6 +250,7 @@
             "settings": {
               "title": "Text block",
               "text": "<p>Use this text to share announcements or sales.<\/p>",
+              "color": "",
               "bg_color": "#ffffff",
               "button_text": "Learn more",
               "button_url": "",
@@ -253,6 +274,17 @@
           "f96f5b8d-057a-4ca3-9cc6-eb7fc2f6d9d1"
         ],
         "settings": {
+        }
+      },
+      "section-newsletter": {
+        "type": "section-newsletter",
+        "settings": {
+          "height": "three-fifty-height-hero",
+          "width": "wrapper--full",
+          "bg_color": "",
+          "color": "",
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       }
     },
