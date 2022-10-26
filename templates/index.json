@@ -5,8 +5,11 @@
       "blocks": {
         "b40d6da1-bf36-4636-9166-460735536c00": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
+            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 20,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -16,29 +19,31 @@
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#ffffff",
+            "color": "#FFFFFF",
             "link_text": "",
             "link": "shopify:\/\/collections",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--input btn--outline lnw caps"
           }
         },
-        "667fd00a-6154-478a-a2ed-db8339efaa1e": {
+        "a54f7f45-d133-490b-934a-834450890b7b": {
           "type": "image",
           "settings": {
             "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/award_winning_vibes.png",
+            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
-            "title": "Image slide",
+            "title": "",
             "heading_size": 11,
-            "description": "Tell your brand's story through images.",
+            "description": "",
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "View products",
-            "link": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "shopify:\/\/collections",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
@@ -46,7 +51,7 @@
       },
       "block_order": [
         "b40d6da1-bf36-4636-9166-460735536c00",
-        "667fd00a-6154-478a-a2ed-db8339efaa1e"
+        "a54f7f45-d133-490b-934a-834450890b7b"
       ],
       "settings": {
         "height": "image-height",
@@ -56,10 +61,10 @@
         "autoplay_speed": 4
       }
     },
-    "41994f60-1639-4e07-acee-b7beca6a0d9b": {
+    "1662137516bf5e9250": {
       "type": "lnw-split-scroll",
       "blocks": {
-        "d3801402-990e-483a-b530-f75c727fd161": {
+        "bcfe1060-4350-44d2-bfea-df9462518619": {
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "WHY CHOOSE LOVE NOT WAR?",
@@ -70,10 +75,10 @@
             "first-column-btn-style": "hero__btn btn btn--large btn--outline caps"
           }
         },
-        "2e0eef6b-0199-4729-8de7-f8fe618fc02c": {
+        "1af3d64b-5a74-461e-a54a-739551b871a9": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/Mask_group.png",
+            "second-column-image": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
             "second-column-heading": "",
             "second-column-text": "",
             "second-column-btn-text": "",
@@ -81,7 +86,7 @@
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
           }
         },
-        "3a23195a-c409-4033-9b22-363525e1ef61": {
+        "e818b3fa-5130-408f-aaac-c4c3b2507bc4": {
           "type": "second-column-elements",
           "settings": {
             "second-column-heading": "Pleasure that doesn’t cost the earth",
@@ -91,10 +96,10 @@
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
           }
         },
-        "ac846406-ff61-4d8a-ad2d-bd72dcb7e1ef": {
+        "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52": {
           "type": "first-column-elements",
           "settings": {
-            "first-column-image": "shopify:\/\/shop_images\/banner.png",
+            "first-column-image": "shopify:\/\/shop_images\/1.png",
             "first-column-heading": "",
             "first-column-text": "",
             "first-column-btn-text": "",
@@ -103,21 +108,21 @@
             "first-column-btn-style": "hero__btn btn btn--large btn--outline caps"
           }
         },
-        "8887efe4-4b3d-4992-8ae3-708feb706cc4": {
+        "f152003e-92a2-4e88-acd4-695a92eaaff4": {
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "The heads collection",
             "first-column-text": "<p>Did you know that you only need ONE vibrating base for the entire LOVE NOT WAR heads range? Saving the earth, and your pocket, one O at a time. <\/p><p>It’s our sleek, innovative design that has helped us make a splash in the industry and led us to so many award wins in such a short space of time.<br\/><\/p>",
-            "first-column-btn-text": "",
-            "first-column-btn-link": "",
-            "button_color": "btn--white",
-            "first-column-btn-style": "hero__btn btn btn--large btn--outline caps"
+            "first-column-btn-text": "SHOP NOW",
+            "first-column-btn-link": "shopify:\/\/collections\/heads",
+            "button_color": "btn--link",
+            "first-column-btn-style": "hero__btn btn btn--large btn--outline lnw"
           }
         },
-        "d63588c1-7191-4920-8fe1-9b43a4ed2dee": {
+        "8e48a74d-7a36-4a03-a407-15654b978ddb": {
           "type": "second-column-elements",
           "settings": {
-            "second-column-image": "shopify:\/\/shop_images\/Mask_group.png",
+            "second-column-image": "shopify:\/\/shop_images\/3.png",
             "second-column-heading": "",
             "second-column-text": "",
             "second-column-btn-text": "",
@@ -127,28 +132,493 @@
         }
       },
       "block_order": [
-        "d3801402-990e-483a-b530-f75c727fd161",
-        "2e0eef6b-0199-4729-8de7-f8fe618fc02c",
-        "3a23195a-c409-4033-9b22-363525e1ef61",
-        "ac846406-ff61-4d8a-ad2d-bd72dcb7e1ef",
-        "8887efe4-4b3d-4992-8ae3-708feb706cc4",
-        "d63588c1-7191-4920-8fe1-9b43a4ed2dee"
+        "bcfe1060-4350-44d2-bfea-df9462518619",
+        "1af3d64b-5a74-461e-a54a-739551b871a9",
+        "e818b3fa-5130-408f-aaac-c4c3b2507bc4",
+        "6a9ddf2c-1369-4f66-b4b7-0ccefc5bcb52",
+        "f152003e-92a2-4e88-acd4-695a92eaaff4",
+        "8e48a74d-7a36-4a03-a407-15654b978ddb"
       ],
       "settings": {
-        "lnw-split-scroll": "test"
+        "lnw-split-scroll": ""
       }
     },
-    "5ba302a6-c81a-4d62-8de3-2f785747e094": {
+    "logos": {
+      "type": "section-press",
+      "blocks": {
+        "logos-0": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p><em>“All four Love Not War toys are made from recycled aluminium and the G-Spot vibe’s slick design and simple interface opens the door to ecstasy-inducing G-Spot play.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/marie-claire_2x_03a18a01-c55d-4e71-9326-9f45a8ae024f.png",
+            "logo_width": 180
+          }
+        },
+        "bcb1660a-bf58-457b-818a-3deaa03fac83": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p><em>“For a slimline bullet that looks like a vape pen, the Meile model from ‘Love Not War’ is truly one of the best I’ve ever tried….I lost a weekend to this one.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/vice_2x_97730fcf-b247-42e2-9751-c6d0dc1a6a6f.png",
+            "logo_width": 180
+          }
+        },
+        "logos-1": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p><em>“The best part is, it’s eco-friendly, made from recycled materials that are as good for the planet as they are for you or your partner.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/well-good_2x_002d1603-eb43-46ac-8ac4-a8db888c0ab2.png",
+            "logo_width": 180
+          }
+        },
+        "logos-2": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p><em>“With 4 inches of insertable length, Liebe is a great G-spot vibrator for beginners.”<\/em><\/p>",
+            "logo": "shopify:\/\/shop_images\/cosmopolitan_2x_d4c9e2ac-243b-423d-bb2b-0c759cabb460.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "logos-0",
+        "bcb1660a-bf58-457b-818a-3deaa03fac83",
+        "logos-1",
+        "logos-2"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 65,
+        "bg_color": "#435562",
+        "color": "",
+        "padding_top": 46,
+        "padding_bottom": 46
+      }
+    },
+    "16589478971c3227ea": {
       "type": "collection-lnw",
       "settings": {
-        "collection-slider": "adidas",
+        "collection-slider": "vibrators",
+        "controls-position": "right"
+      }
+    },
+    "1661084539183a92c4": {
+      "type": "collection-lnw",
+      "settings": {
+        "collection-slider": "heads",
         "controls-position": "left"
+      }
+    },
+    "16593742018d4c775a": {
+      "type": "recommended-products-lnw",
+      "settings": {
+        "lnw-recommended-products": "Recommended",
+        "main-image": "shopify:\/\/shop_images\/LNW_AD04_Liebe_unit_16.jpg",
+        "heading": "Meet the LIEBE",
+        "description": "<p>Are you one to take things slow and let it build up? (Otherwise known as a slowgasm…) If so, you’re in luck! LIEBE is the head for you. The soft and flexible silicone head is designed to perfectly massage your G-spot, allowing you to apply as little or maximum pressure as you want. Just like all our toy, LIEBE features 4 intensity levels and 7 vibration patterns, perfect for exploring your body, finding your G-spot and letting your pleasure build.<\/p>",
+        "product1": "liebe",
+        "product2": "liebe-head",
+        "recommended-link": "shopify:\/\/products\/liebe"
+      }
+    },
+    "165930724844934d89": {
+      "type": "testimonials-lnw",
+      "blocks": {
+        "6888fd3b-51f5-412a-82d9-70d595294ad9": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/reddot_winner_2022.jpg",
+            "heading": "Red Dot Winner Innovative Product",
+            "year": "2022",
+            "back-text": "The Red Dot Awards have become known as a much sought after ‘seal of quality’ and is presented only to products that have an outstanding design feature, so we are delighted to win an award for our KOI Vibrator. The Red Dot Awards receive more than 18,000 entries each year from design professionals, and is considered one of the world’s largest and most renowned design competitions."
+          }
+        },
+        "5b1e249b-524b-4f89-b212-622849fb7762": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/LNW_if_Gold_Award_2022.jpg",
+            "heading": "IF Gold Design Award Winner  Outstanding Design Achievements",
+            "year": "2022",
+            "back-text": "Love Not War has been awarded a prestigious Gold IF Design Award, their highest recognition, for our outstanding design achievements. The IF Design Award is one of the world’s most prestigious design awards. Organised in Germany since 1953, the IF seal signifies a great product design for consumers and the design community. There are more htan 11,000 entries every year from design professionals, companies and organisations."
+          }
+        },
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/XBIZ_Europa_Awards_2022.jpg",
+            "heading": "XBIZ Europa Awards Best New Pleasure Product Company",
+            "year": "2022",
+            "back-text": "The annual XBIZ Europa Awards were created to honor a variety of achievements of those in the adult industry, including anything from movie production, digital media, pleasure products, retail and more. We’ve watched over the past 18 months at how we have started to become known in the industry for merging sustainability and top quality functionality and award wins such as this one are proof of that."
+          }
+        },
+        "915fea9d-5eca-403b-a622-03d0afc01934": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/marie_claire_Sustainability_Awards_2022.jpg",
+            "heading": "Marie Claire Sustainability Awards Best Sustainable Sex Toy Brand",
+            "year": "2022",
+            "back-text": "The Marie Claire Annual Sustainability Awards aim to celebrate brands, organisations, and products that are genuinely implementing change and building a better tomorrow. Awards such as this one is not only a massive achievement for us professionally but it also acts as a great testament to our efforts in the field of sustainability. It means people see the true value in finding eco-friendly and sustainable sex toy options."
+          }
+        },
+        "4e8327c3-9326-4f49-acd7-d67d52826288": {
+          "type": "award-card",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/LNW_Green_Product_Award_2022.jpg",
+            "heading": "Green Product Award",
+            "year": "2022",
+            "back-text": "Since 2013, the Green Product Award distinguishes globally sustainable, innovative products and services that are on the market. It is aimed at start-ups and established companies alike who wish to highlight their sustainable achievements. We are thrilled to win a Green Product Award as it shows we are not green-washing, we are extremely passionate about becoming the most sustainable option on the market."
+          }
+        }
+      },
+      "block_order": [
+        "6888fd3b-51f5-412a-82d9-70d595294ad9",
+        "5b1e249b-524b-4f89-b212-622849fb7762",
+        "a2722f3d-36c8-40fa-8c82-faeea9f1004e",
+        "915fea9d-5eca-403b-a622-03d0afc01934",
+        "4e8327c3-9326-4f49-acd7-d67d52826288"
+      ],
+      "settings": {
+        "award-slider": "Awards"
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_color": "#545454",
+            "title": "Our products are made with FDA grade silicone",
+            "text": ""
+          }
+        },
+        "7c5ea4e8-2b3b-4a75-8b56-e8972d0d0ac6": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-cart-message",
+            "icon_color": "#545454",
+            "title": "checkout is quick and easy to use",
+            "text": ""
+          }
+        },
+        "icon-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-lock-shield",
+            "icon_color": "#545454",
+            "title": "Your secret is safe with us",
+            "text": ""
+          }
+        },
+        "icon-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Get in touch with us  at hello@l-n-w.com",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "7c5ea4e8-2b3b-4a75-8b56-e8972d0d0ac6",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_size": 25,
+        "icon_alignment": "icon--top",
+        "heading_size": "h5",
+        "bg_color": "#fca38d",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1660686550db8b3a9c": {
+      "type": "section-custom-content",
+      "blocks": {
+        "166068655001e7d1cb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_63_1.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "166068655001e7d1cb-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p><em>\"We have partnered with One Tree Planted, a non-profit organization on a mission to help the earth by planting trees. For every Love Not War purchase on our website, we will plant a tree.\"<\/em><\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f0eeec",
+            "color": "",
+            "button_text": "Learn more",
+            "button_url": "shopify:\/\/pages\/one-tree-planted",
+            "button_color": "btn--neutral",
+            "button_style": "lnw__btn",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "166068655001e7d1cb-0",
+        "166068655001e7d1cb-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1664530854617d9b35": {
+      "type": "section-reviews",
+      "blocks": {
+        "1664530854464a3118-0": {
+          "type": "review",
+          "settings": {
+            "title": "Ellen Scott",
+            "subheading": "METRO",
+            "review_text": "<p>An eco-friendly vibrator so you can masturbate without worrying about wrecking the environment? A win in our books<\/p>",
+            "review_url": ""
+          }
+        },
+        "1664530854464a3118-1": {
+          "type": "review",
+          "settings": {
+            "title": "Bethany Allard",
+            "subheading": "MASHABLE",
+            "review_text": "<p>Love Not War takes sustainability seriously, all the way from the production line to the vibrator that ends up in your hands<\/p>",
+            "review_url": ""
+          }
+        },
+        "f99ed243-ff39-49a2-b29d-fe87b1277821": {
+          "type": "review",
+          "settings": {
+            "title": "Archie Bongiovanni",
+            "subheading": "VICE",
+            "review_text": "<p>Fantastic, rechargeable, eco-friendly...not only are they nice for the environment, these vibrators are seriously powerful too.<\/p><p><\/p>",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664530854464a3118-0",
+        "1664530854464a3118-1",
+        "f99ed243-ff39-49a2-b29d-fe87b1277821"
+      ],
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "#fa5e41",
+        "color": "#ffffff",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "166452763576c5c04e": {
+      "type": "section-blog",
+      "settings": {
+        "blog_name": "love-not-war-blog",
+        "title": "EDUCATIONAL HUB",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16593604036b256fa6": {
+      "type": "blog-carousel-lnw",
+      "disabled": true,
+      "blocks": {
+        "1cd87566-8dd6-4743-a0be-905248cf210b": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/we-ve-been-shortlisted"
+          }
+        },
+        "efd863d5-4732-4a99-ae41-bd93379b727f": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/it-s-been-a-busy-week-for-love-not-war"
+          }
+        },
+        "dc26e08a-536d-434a-85f0-a5a965a9e918": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/finding-green-flags-in-a-partner"
+          }
+        },
+        "fbfe0632-9bd7-40e7-b5d5-ed145e88a361": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/kink-vs-fetishes"
+          }
+        },
+        "f28ff7d7-3cb5-477f-aa36-f51ddd762694": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "love-not-war-blog\/how-to-use-a-bullet-vibrator-5-tips-for-mind-blowing-orgasms"
+          }
+        },
+        "15cce161-c51c-4672-b238-9a594f0b58e8": {
+          "type": "blog-post-card",
+          "settings": {
+            "blog-article": "test-blog\/nulla-aliqua-in-earum-aspernatur-cillum-libero-unde-natus-reprehenderit"
+          }
+        }
+      },
+      "block_order": [
+        "1cd87566-8dd6-4743-a0be-905248cf210b",
+        "efd863d5-4732-4a99-ae41-bd93379b727f",
+        "dc26e08a-536d-434a-85f0-a5a965a9e918",
+        "fbfe0632-9bd7-40e7-b5d5-ed145e88a361",
+        "f28ff7d7-3cb5-477f-aa36-f51ddd762694",
+        "15cce161-c51c-4672-b238-9a594f0b58e8"
+      ],
+      "settings": {
+        "blog-posts-slider": "Educational Hub",
+        "blog-link": "shopify:\/\/blogs\/test-blog"
+      }
+    },
+    "16426127035bd96a27": {
+      "type": "apps",
+      "blocks": {
+        "26794431-ce82-40a4-afa0-a5b173eb83d9": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<style>\n#insta-feed {\n    padding: 56px 50px 0px 50px;\nbackground-color:#F0EEEC;\n}\n\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "26794431-ce82-40a4-afa0-a5b173eb83d9"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "16645319337036fe1f": {
+      "type": "section-columns",
+      "disabled": true,
+      "blocks": {
+        "1664531932d4e63bec-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reddot_winner_2022.jpg",
+            "bg_position": "center-center",
+            "title": "Red Dot Winner | Innovative Product",
+            "text": "<p><strong>The Red Dot Awards<\/strong> have become known as a much sought after ‘seal of quality’ and is presented only to products that have an outstanding design feature, so we are delighted to win an award for our <strong>KOI<\/strong> Vibrator. <strong>The Red Dot Awards<\/strong> receive more than 18,000 entries each year from design professionals, and is considered one of the world’s largest and most renowned design competitions. <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": ""
+          }
+        },
+        "1664531932d4e63bec-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LNW_if_Gold_Award_2022.jpg",
+            "bg_position": "center-center",
+            "title": "IF Gold Design Award Winner | Outstanding Design Achievements",
+            "text": "<p>Love Not War has been awarded a prestigious Gold IF Design Award, their highest recognition, for our outstanding design achievements. The IF Design Award is one of the world’s most prestigious design awards. Organised in Germany since 1953, the IF seal signifies a great product design for consumers and the design community. There are more htan 11,000 entries every year from design professionals, companies and organisations<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": ""
+          }
+        },
+        "1664531932d4e63bec-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/XBIZ_Europa_Awards_2022.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664531932d4e63bec-0",
+        "1664531932d4e63bec-1",
+        "1664531932d4e63bec-2"
+      ],
+      "settings": {
+        "title": "At Love Not War we make no compromises when it comes to PLEASURE or the PLANET.",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1,
+        "enable_image": true,
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "slideshow",
-    "41994f60-1639-4e07-acee-b7beca6a0d9b",
-    "5ba302a6-c81a-4d62-8de3-2f785747e094"
+    "1662137516bf5e9250",
+    "logos",
+    "16589478971c3227ea",
+    "1661084539183a92c4",
+    "16593742018d4c775a",
+    "165930724844934d89",
+    "icons",
+    "1660686550db8b3a9c",
+    "1664530854617d9b35",
+    "166452763576c5c04e",
+    "16593604036b256fa6",
+    "16426127035bd96a27",
+    "16645319337036fe1f"
   ]
 }
