@@ -26004,9 +26004,6 @@ body.is-focused .quick-add__holder:focus-within {
 
 /* Reverse scroll css */
 
-html{
-  scroll-behavior: smooth;
-}
 body{
   padding: 0px;
   margin: 0px;
@@ -26458,6 +26455,7 @@ h2.icon__column__text__heading.h5 strong{
     }
     .lnw-recommended-wrapper{
         flex-direction: column;
+      overflow-x:hidden;
     }
     .title-wrapper{
         flex-direction: row-reverse !important;
@@ -26488,8 +26486,12 @@ h2.icon__column__text__heading.h5 strong{
   }
 
   .col-box {
-    height: 50vh;
+    height: auto;
     width: 100%;
+}
+
+  .image.col-box {
+    min-height: 400px;
 }
   .standard__rte p{
     text-align:center;
