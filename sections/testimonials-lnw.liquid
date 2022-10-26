@@ -1,0 +1,145 @@
+<section class="award-slider">
+    <div class="page-width">
+        <h2>{{ section.settings.award-slider }}</h2>
+        <div class="award-track owl-carousel">
+
+            {%- for block in section.blocks -%}
+            <div class="item">
+                <div class="card" onclick="$('.card').removeClass('flipped');$(this).toggleClass('flipped');">
+                    <div class="front">
+                        <div class="logo-wrapper">
+                            <img src="{{ block.settings.logo | img_url:'master' }}" alt="Logo image" class="logo">
+                        </div>
+                        <div class="heading-wrapper">
+                            <h3>{{ block.settings.heading }}</h3>
+                        </div>
+                        <div class="year-wrapper">
+                            <h5>{{ block.settings.year }}</h5>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <p class="award-desc">{{block.settings.back-text}}</p>
+                    </div>
+                </div>
+            </div>
+            {%- endfor -%}
+
+        </div>
+<!--         <div class="slider-controls">
+            <div class="prev-slide"><img src="{{ 'arrow-left.png' |asset_url }}" alt="carousel-previous-icon"></div>
+            <div class="next-slide"><img src="{{ 'arrow-right.png'|asset_url }}" alt="carousel-previous-icon"></div>
+        </div> -->
+    </div>
+</section>
+
+
+
+{% schema %}
+{
+    "name": "award Slider",
+    "settings": [
+        {
+            "id": "award-slider",
+            "type": "text",
+            "label": "Add a award slider"
+        }
+    ],
+    "templates": ["index"],
+    "presets": [
+        {
+            "name": "award Slider",
+            "category": "Sliders"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "award Card",
+            "type": "award-card",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "logo",
+                    "label": "Logo"
+                },
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "Heading"
+                },
+                {
+                    "type": "text",
+                    "id": "year",
+                    "label": "Year"
+                },
+                {
+                    "type": "text",
+                    "id": "back-text",
+                    "label": "Back text"
+                }
+              
+                
+            ]
+        }
+    ]
+}
+{% endschema %}
+
+
+  {% stylesheet %}
+  .award-slider .slider-controls{
+    margin: 15px 15px;
+    width:72px;
+    height:32px;
+    justify-content: space-evenly;
+    align-items:center;
+
+  }
+  .award-track {
+    padding: 0px 0px;
+}
+
+    .award-track .owl-nav {
+    display: flex;
+    width: 72px;
+    height: 32px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+    .card{
+    min-height:300px;
+}
+  .front {
+    border: 1px solid #F0F0F2;
+    border-radius: 20px;
+    padding: 15px 20px;
+    min-height: 300px;
+}
+    
+.back{
+    min-height: 300px;
+    border: 1px solid #F0F0F2;
+    background-color: #F0EEEC;
+    border-radius: 20px;
+
+}
+
+p.award-desc {
+    padding: 32px;
+}
+
+
+.logo-wrapper img {
+    max-width: 96px;
+    height: auto;
+}
+
+@media screen and (max-width:780px){
+  section.award-slider h2 {
+    text-align: left;
+}
+}
+    
+  {% endstylesheet %}

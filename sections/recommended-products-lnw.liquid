@@ -1,0 +1,196 @@
+<section class="recommended-products">
+    <div class="page-width">
+        <div class="lnw-recommended-wrapper">
+            <div class="lnw-recommended-image">
+                <img src="{{section.settings.main-image | img_url:'master'}}" alt="">
+            </div>
+            <div class="lnw-recommended-products">
+                <h3>{{ section.settings.heading }}</h3>
+                <p class="recommended-desc">{{ section.settings.description }}</p>
+                <a class="recommended-link" href='{{ section.settings.recommended-link }}'>Load More <img src="{{ 'load-more-arrow.png'|asset_url }}" alt="carousel-previous-icon"></a>
+                <div class="products-wrapper">
+                    <div class="recommended-product">
+                        <div class="product-collection">{{section.settings.product1.collections.first.title}}</div>
+                        <div class="product-image">
+                          <a href="{{ section.settings.product1.url }}">
+                          <img src="{{section.settings.product1.featured_image | img_url:'master'}}" alt="">
+                          </a>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-name"><a href="{{ section.settings.product1.url }}">{{section.settings.product1.title}}</a></div>
+                            <div class="product-price">{{ section.settings.product1.price | money_with_currency }}</div>
+                        </div>
+                    </div>
+                    <div class="recommended-product">
+                        <div class="product-collection">{{section.settings.product2.collections[0].title}}</div>
+                        <div class="product-image">
+                          <a href="{{ section.settings.product2.url }}">
+                          <img src="{{section.settings.product2.featured_image | img_url:'master'}}" alt="">
+                          </a>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-name"><a href="{{ section.settings.product2.url }}">{{section.settings.product2.title}}</a></div>
+                          
+                            <div class="product-price">{{ section.settings.product2.price | money_with_currency }}</div>
+                          
+                        </div>
+                      
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Recommended products",
+    "settings": [
+        {
+            "id": "lnw-recommended-products",
+            "type": "text",
+            "label": "Add a recommended products section"
+        },
+        {
+            "id": "main-image",
+            "type": "image_picker",
+            "label": "Select an image"
+        },
+        {
+            "id": "heading",
+            "type": "text",
+            "label": "Enter heading"
+        },
+        {
+            "id": "description",
+            "type": "richtext",
+            "label": "Enter description"
+        },
+        {
+            "id": "product1",
+            "type": "product",
+            "label": "Select a product"
+        },
+        {
+            "id": "product2",
+            "type": "product",
+            "label": "Select a product"
+        },
+      {
+            "id": "recommended-link",
+            "type": "url",
+            "label": "Link to recommendation"
+        }
+    ],
+    "templates": ["index"],
+    "presets": [
+        {
+            "name": "Recommended Products",
+            "category": "LNW"
+        }
+    ]
+}
+{% endschema %}
+
+
+
+  {% stylesheet %}
+    .lnw-recommended-wrapper {
+    display: flex;
+    }
+
+    .lnw-recommended-image {
+    flex: 1;
+    }
+
+    .lnw-recommended-products {
+    flex: 1;
+    padding:50px
+    }
+
+    .lnw-recommended-products h3 {
+    font-weight: 900;
+}
+
+    a.recommended-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+      margin-top: 36px;
+      margin-bottom: 36px;
+      font-weight: 700;
+      margin-bottom: 90px;
+}
+    
+    
+      a.recommended-link img{
+        margin-left:15px;
+        padding-top: 2px;
+      }
+    
+    .lnw-recommended-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+    .products-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .product-collection {
+        text-transform: uppercase;
+        color: #14222d80;
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    
+
+    .recommended-product {
+        flex: 1;
+        padding-right: 20px;
+    }
+    
+    
+    .recommended-product img {
+        width: 100%;
+    }
+    .product-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .product-name{
+/*     width: 100px; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+    
+.product-price{
+    color: rgba(20, 34, 45, 0.5);
+}
+    
+
+
+    @media screen and (max-width:780px){
+      a.recommended-link{
+        margin-top:20px;
+        margin-bottom:29px;
+      }
+      .products-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+      
+      .recommended-product {
+        flex:none;
+        padding-right:0;
+        width:165px
+    }
+      
+    }
+  {% endstylesheet %}

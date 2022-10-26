@@ -1,0 +1,217 @@
+<section class="blog-slider">
+    <div class="page-width">
+        <div class="edu-hub-header">
+            <h2>{{ section.settings.blog-posts-slider }}</h2>
+            <a href="{{ section.settings.blog-link }}" class="lnw__btn desktop-only">Load More</a>
+        </div>
+        <div class="blog-posts-track owl-carousel">
+
+            {%- for block in section.blocks -%}
+            <div class="item">
+                <div class="card" onclick="$(this).toggleClass('flipped');">
+                    <div class="front blog-post" style="background-image: url('{{ block.settings.blog-article.image | img_url:'master' }}'); background-size: cover;">
+                        <div class="article-date">{{ block.settings.blog-article.published_at | date: "%B %d, %Y" }}</div>
+                        <div class="heading-wrapper">
+                            <h3 class="article-heading">{{ block.settings.blog-article.title }}</h3>
+                        </div>
+                        <div class="article-link">
+                            <a href="{{block.settings.blog-article.url}}">Read More</a>
+                        </div>
+                        
+                    </div>
+                    <div class="back blog-post">
+                        <p class="award-desc">{{ block.settings.blog-article.excerpt }}</p>
+                    </div>
+                </div>
+            </div>
+            {%- endfor -%}
+
+        </div>
+        <div class="mobile-only">
+            <a href="{{ section.settings.blog-link }}" class="lnw__btn">Load More</a>
+        </div>
+        
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Blog Posts Slider",
+    "settings": [
+        {
+            "id": "blog-posts-slider",
+            "type": "text",
+            "label": "Add a blog posts slider"
+        },
+        {
+            "id": "blog-link",
+            "type": "url",
+            "label": "Blog Link"
+        }
+    ],
+    "templates": ["index"],
+    "presets": [
+        {
+            "name": "Blog Posts Slider",
+            "category": "Sliders"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Blog Post Card",
+            "type": "blog-post-card",
+            "settings": [
+                {
+                    "type": "article",
+                    "id": "blog-article",
+                    "label": "Article"
+                }
+                
+            ]
+        }
+    ]
+}
+{% endschema %}
+
+{% javascript %}
+  var blogSlider = $('.blog-posts-track').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1600:{
+            items:4
+        }
+    }
+});
+
+// $(".card").flip();
+  
+
+  {% endjavascript %}
+
+  {% stylesheet %}
+  .blog-slider {
+    padding: 0px 50px;
+    margin: 120px 0px;
+    
+}
+    section.blog-slider .item {
+    width: 448px;
+    height: 448px;
+}
+    
+    
+.card{
+    min-height:300px;
+}
+  .blog-post.front {
+    border: 1px solid #F0F0F2;
+    border-radius: 0px;
+    padding: 15px 20px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+
+}
+<!--  -->
+.article-heading{
+    text-align:center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.article-link a {
+    text-transform: uppercase;
+  
+}
+
+.article-date{
+    text-align:center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.blog-post.front a{
+    color:#fff;
+}
+
+.blog-post.back{
+    min-height: 300px;
+    border: 1px solid #F0F0F2;
+    background-color: #F0EEEC;
+    border-radius: 0px;
+  
+}
+
+p.award-desc {
+    padding: 32px;
+    font-weight: 500;
+}
+
+.logo-wrapper img {
+    max-width: 96px;
+    height: auto;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding: 20px 50px;
+}
+
+.blog-slider-controls {
+    display: flex;
+    justify-content: center;
+    flex-shrink: inherit;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-right: 15px;
+    width:60px;
+}
+    
+    
+
+.slick-arrow {
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .blog-posts-track {
+        padding: 0px;
+    }
+    section.blog-slider {
+        padding: 15px;
+      margin: 64px 0px;
+    }
+  
+  
+    
+    section.blog-slider .controls-container {
+        display: none;
+    }
+}
+
+  {% endstylesheet %}

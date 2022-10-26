@@ -1,0 +1,183 @@
+{% assign first_col_blocks = section.blocks | where: 'type', 'first-column-elements' %}
+{% assign second_col_blocks = section.blocks | where: 'type', 'second-column-elements' %}
+
+
+<div class="col-container" id="col-container">
+        <div class="col col-1">
+            {% for block in first_col_blocks %}
+            {% if block.settings.first-column-image != blank %}
+            <div class="image col-box" style="background-image:url('{{ block.settings.first-column-image | img_url:"master" }}'); background-size: cover;">
+                    
+                </div>
+            {% endif %} 
+            {% if block.settings.first-column-text != blank %}
+            <div class="text col-box">
+              <h2>{{ block.settings.first-column-heading }}</h2>
+                    {{ block.settings.first-column-text }}
+              {%- unless block.settings.first-column-btn-text == '' -%}
+                <a class="{{ block.settings.first-column-btn-style }} {{ block.settings.button_color }}"
+                  href="{{ block.settings.first-column-btn-link }}">
+                  {{ block.settings.first-column-btn-text | escape }}
+                </a>
+              {%- endunless -%}
+                </div>
+                {% endif %} 
+              
+                
+            {% endfor %}
+             
+    
+        </div>
+
+        <div class="col col-2">
+            {% for block in second_col_blocks %}
+            {% if block.settings.second-column-image != blank %}
+            <div class="image col-box" style="background-image:url('{{ block.settings.second-column-image | img_url:'master' }}'); background-size: cover;background-position: center center;">
+                    
+                </div>
+            {% endif %} 
+            {% if block.settings.second-column-text != blank %}
+            <div class="text col-box">
+              <h2>{{ block.settings.second-column-heading }}</h2>
+                    {{ block.settings.second-column-text }}
+              {%- unless block.settings.second-column-btn-text == '' -%}
+                <a class="{{ block.settings.second-column-btn-style }} "
+                  href="{{ block.settings.second-column-btn-link }}">
+                  {{ block.settings.second-column-btn-text | escape }}
+                </a>
+              {%- endunless -%}
+                </div>
+                {% endif %} 
+            {% endfor %}
+        </div>
+    </div>
+{% schema %}
+{
+    
+        "name": "Split Scroll Section",
+        "settings": [
+            {
+                "id": "lnw-split-scroll",
+                "type": "text",
+                "label": "Add a split scroll section"
+            }
+            
+        ],
+        "templates": ["index"],
+        "presets": [
+            {
+                "name": "Custom split scroll",
+                "category": "LNW"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Column 1 Elements",
+                "type": "first-column-elements",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "first-column-image",
+                        "label": "Image"
+                    },
+                   {
+                        "type": "text",
+                        "id": "first-column-heading",
+                        "label": "Heading"
+                      },
+                    {
+                        "type": "richtext",
+                        "id": "first-column-text",
+                        "label": "Text"
+                      },
+                  {
+                        "type": "text",
+                        "id": "first-column-btn-text",
+                        "label": "Button text"
+                      },
+                  {
+                        "type": "url",
+                        "id": "first-column-btn-link",
+                        "label": "Button link"
+                      },
+                      {
+          "type": "select",
+          "id": "button_color",
+          "label": "Color",
+          "default": "btn--white",
+          "options": [
+            {"value": "btn--primary", "label": "Bright accent"},
+            {"value": "btn--secondary", "label": "Secondary accent"},
+            {"value": "btn--link", "label": "Link color"},
+            {"value": "btn--neutral", "label": "Text color"},
+            {"value": "btn--black", "label": "Black"},
+            {"value": "btn--white", "label": "White"}
+          ]
+        },
+                  {
+          "type": "select",
+          "id": "first-column-btn-style",
+          "label": "Style",
+          "default": "hero__btn btn btn--large btn--outline caps",
+          "options": [
+            {"value": "caps--large", "label": "Capitalized text"},
+            {"value": "hero__btn btn btn--input caps", "label": "Small button"},
+            {"value": "hero__btn btn btn--large caps", "label": "Large button"},
+            {"value": "hero__btn btn btn--input btn--outline caps", "label": "Small outline button"},
+            {"value": "hero__btn btn btn--input btn--outline lnw caps", "label": "Small outline LNW button"},
+            {"value": "hero__btn btn btn--large btn--outline caps", "label": "Large outline button"},
+            {"value": "hero__btn btn btn--large btn--outline lnw", "label": "Large outline LNW button"}
+          ]
+        }
+                ]
+            },
+            {
+                "name": "Column 2 Elements",
+                "type": "second-column-elements",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "second-column-image",
+                        "label": "Image"
+                    },
+                  {
+                        "type": "text",
+                        "id": "second-column-heading",
+                        "label": "Heading"
+                      },
+                    {
+                        "type": "richtext",
+                        "id": "second-column-text",
+                        "label": "Text"
+                      },
+                  {
+                        "type": "text",
+                        "id": "second-column-btn-text",
+                        "label": "Button text"
+                      },
+                  {
+                        "type": "url",
+                        "id": "second-column-btn-link",
+                        "label": "Button link"
+                      },
+                  {
+          "type": "select",
+          "id": "second-column-btn-style",
+          "label": "Style",
+          "default": "hero__btn btn btn--large btn--outline caps",
+          "options": [
+            {"value": "caps--large", "label": "Capitalized text"},
+            {"value": "hero__btn btn btn--input caps", "label": "Small button"},
+            {"value": "hero__btn btn btn--large caps", "label": "Large button"},
+            {"value": "hero__btn btn btn--input btn--outline caps", "label": "Small outline button"},
+            {"value": "hero__btn btn btn--input btn--outline lnw caps", "label": "Small outline LNW button"},
+            {"value": "hero__btn btn btn--large btn--outline caps", "label": "Large outline button"},
+            {"value": "hero__btn btn btn--large btn--outline lnw", "label": "Large outline LNW button"}
+          ]
+        }
+                ]
+            }
+        ]
+    
+}
+{% endschema %}
