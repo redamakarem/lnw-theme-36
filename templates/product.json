@@ -150,8 +150,8 @@
           "settings": {
             "icon_name": "icon-shipment",
             "icon_color": "#aaaaaa",
-            "title": "Fast shipping",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+            "title": "Conscientious shipping",
+            "text": "<p>At Love Not War we make it a priority for our shipping process to match our products, in that it is as ‘green’ as possible.  Everything from our shipping partners to our packaging is taken into consideration.<\/p>"
           }
         },
         "shipping-1": {
@@ -159,8 +159,8 @@
           "settings": {
             "icon_name": "icon-truck",
             "icon_color": "#aaaaaa",
-            "title": "Order tracking",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+            "title": "Fast & Discreet Shipping",
+            "text": "<p>Once your order has been shipped you should receive it within 5 working days. <\/p><p>Shipping prices will depend on your location:<\/p><p>UK -  Free shipping<\/p><p>USA -  Free shipping<\/p><p>Rest of world - £20<\/p><p>You may also care to know that all Love Not War products are delivered in completely discreet packaging with no clues as to what is inside the package.<\/p>"
           }
         },
         "shipping-2": {
@@ -169,7 +169,7 @@
             "icon_name": "icon-chat",
             "icon_color": "#aaaaaa",
             "title": "Get in touch",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+            "text": "<p>We currently ship to the UK, Europe and the USA. However, it is important to note that we are always adding more markets to our shipment list, so if you are currently living outside of these areas, please feel free to get in touch with us at <a href=\"mailto:hello@l-n-w.com\"><span style=\"text-decoration:underline\">hello@l-n-w.com<\/span><\/a> and we will see what is possible. <\/p>"
           }
         }
       },
