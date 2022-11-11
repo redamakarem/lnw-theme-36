@@ -318,35 +318,25 @@
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0": {
           "type": "review",
           "settings": {
-            "title": "Jeremy Usborne",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
+            "title": "Woman and Home",
+            "subheading": "Media",
+            "review_text": "Maya is sleek in both design and function",
+            "review_url": "https:\/\/www.womanandhome.com\/health-wellbeing\/sex\/best-bullet-vibrators\/"
           }
         },
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1": {
           "type": "review",
           "settings": {
-            "title": "Willy Bridge",
+            "title": "69 Desirs",
             "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
-          }
-        },
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2": {
-          "type": "review",
-          "settings": {
-            "title": "Kenneth Powell",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
+            "review_text": "The Maya is a very good surprise",
+            "review_url": "https:\/\/www.69desirs.com\/love-not-war-maya-review\/"
           }
         }
       },
       "block_order": [
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0",
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1",
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2"
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1"
       ],
       "settings": {
         "show_featured_image": false,
