@@ -238,6 +238,7 @@
         "custom-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lifestyle_resize.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -265,7 +266,7 @@
             "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
             "text_size": 3,
             "text_columns": 1,
-            "align_text": "text-left",
+            "align_text": "text-center",
             "bg_color": "#f7f7f7",
             "color": "",
             "button_text": "",
@@ -315,6 +316,7 @@
         "imgtxt-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/chase-yi-LhiUBDAO-wI-unsplash_1_9c9d0acc-87d7-4c64-bac4-70e0e187bad5.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
@@ -342,12 +344,13 @@
         "width": "wrapper",
         "padding": true,
         "borders": false,
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 20
       }
     },
     "6deefded-92d9-41dd-9827-1785eea0451f": {
       "type": "section-video",
+      "disabled": true,
       "settings": {
         "video_link_bg": "",
         "video_link": "",
