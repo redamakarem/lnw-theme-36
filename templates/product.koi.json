@@ -193,10 +193,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-0": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2._Koi_1.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "A Great Personal Massager",
+            "text": "<p>Koi is perfect for body massages and helps relieve neck tension.<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -207,10 +208,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-1": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2._Koi_2_ea05094b-a264-41fe-83b8-41c5670f401c.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "Naughty Lake Days Approved",
+            "text": "<p>Koi is fully waterproof, meaning it will withstand a long soak in the bath!<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -221,10 +223,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-2": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2._Koi_3.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "Perfect for Couples",
+            "text": "<p>Hold Koi at the base of the shaft for a mind-blowing BJ, that vibrates the penis.<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -278,11 +281,11 @@
         "custom-1": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
             "title": "Our dedication to sustainability.",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>KOI’s inner body and end ring is made with 100% recycled aluminium and uses the minimum amount of silicone needed. The motor back in the base is made with a plastic that is biodegradable, and our logo is lovingly engraved onto the toy with a laser, so there is no ink or nasty chemicals used. Our packaging is also sealed with earth-friendly glue, and the ink used on our packaging is soy-ink, a sustainable solution.<\/p><p>Our toys will come with a white, sleek travel bag, made from tencel lyocell. We use this material, because it’s better for the environment than other materials. It does not use harmful chemicals in the production process, and the earth friendly ink we use to print our logo on the bag is easily trasnferabble and long lasting. <\/p><p>Tencel is also less likely to gather bacteria and other nasties that can transfer to the toy. It also requires less energy and water than conventional cotton, and as it’s plant-derived, it is bio degradable. If that’s not enough, tencel is also considerably thicker, to help protect the product.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
@@ -315,11 +318,11 @@
         "imgtxt-0": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
-            "title": "Because sustainability is sexy",
+            "title": "Who said petite can’t be powerful?",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>KOI has the most powerful motor in the entire Love Not War range. A and Red Dot award winner, this petite but powerful toy is one of the most sustainable wands on the market. <\/p><p>If you’re looking for a fuller head to stimulate a larger surface area then the KOI is the one for you, but don’t be fooled by its small appearance, KOI offers deep rumbling vibrations that penetrate deep. With four intensity levels and seven vibration patterns, the fully waterproof wand is perfect for a quick burst of pleasure or hours of fun. <\/p><p>KOI’s flexible neck, but malleable head allows the toy to move with the contours of your body, not only great for clirotal stimulation, KOI doubles up as a body massager, great for relieving neck tension.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-left",
