@@ -187,49 +187,71 @@
         "padding_bottom": 0
       }
     },
-    "about": {
-      "type": "section-accordion",
+    "f0f610b0-e20e-4707-a3bd-a99ae185d2dd": {
+      "type": "section-columns",
       "blocks": {
-        "about-0": {
-          "type": "image",
+        "template--15345378656349__f0f610b0-e20e-4707-a3bd-a99ae185d2dd-1668156052073f3621-0": {
+          "type": "text_block",
           "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "image": "shopify:\/\/shop_images\/6._Amore_1.png",
             "bg_position": "center-center",
-            "aspect_ratio": 0.6
+            "title": "Designed to Perfection",
+            "text": "<p>Amore was designed with a deliberate off center point to transmit maximum vibrations across the body. <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": ""
           }
         },
-        "about-1": {
-          "type": "image",
+        "template--15345378656349__f0f610b0-e20e-4707-a3bd-a99ae185d2dd-1668156052073f3621-1": {
+          "type": "text_block",
           "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "image": "shopify:\/\/shop_images\/6._Amore_2.png",
             "bg_position": "center-center",
-            "aspect_ratio": 0.6
+            "title": "Made to Explore",
+            "text": "<p>Amore is safe for vaginal play and can reach the G-Spot on many bodies<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "about-2": {
-          "type": "image",
+        "template--15345378656349__f0f610b0-e20e-4707-a3bd-a99ae185d2dd-1668156052073f3621-2": {
+          "type": "text_block",
           "settings": {
-            "title": "Image heading",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "image": "shopify:\/\/shop_images\/6._Amore_3.png",
             "bg_position": "center-center",
-            "aspect_ratio": 0.6
+            "title": "Great for Exploring",
+            "text": "<p>Amore’s malleable silicone tip is smooth and feels great against nipples.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         }
       },
       "block_order": [
-        "about-0",
-        "about-1",
-        "about-2"
+        "template--15345378656349__f0f610b0-e20e-4707-a3bd-a99ae185d2dd-1668156052073f3621-0",
+        "template--15345378656349__f0f610b0-e20e-4707-a3bd-a99ae185d2dd-1668156052073f3621-1",
+        "template--15345378656349__f0f610b0-e20e-4707-a3bd-a99ae185d2dd-1668156052073f3621-2"
       ],
       "settings": {
-        "title": "Serving Suggestions",
+        "title": "",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1,
+        "enable_image": true,
         "bg_color": "",
         "color": "",
-        "border_color": "",
-        "padding_top": 0,
-        "padding_bottom": 30
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom": {
@@ -593,7 +615,7 @@
     "main",
     "faq",
     "shipping",
-    "about",
+    "f0f610b0-e20e-4707-a3bd-a99ae185d2dd",
     "custom",
     "imgtxt",
     "6deefded-92d9-41dd-9827-1785eea0451f",
