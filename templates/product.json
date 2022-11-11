@@ -371,7 +371,7 @@
             "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
             "text_size": 3,
             "text_columns": 1,
-            "align_text": "text-left",
+            "align_text": "text-center",
             "bg_color": "#f7f7f7",
             "color": "",
             "button_text": "",
