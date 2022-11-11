@@ -537,8 +537,8 @@
           "type": "text_block",
           "settings": {
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Finding The Right Toy For You",
+            "text": "<p>Everyone who owns a sex toy will know how difficult it can be to choose your very first toy, after all, how do you know what you’re going to enjoy the most?<\/p>",
             "button_text": "Learn more",
             "button_url": "",
             "button_color": "btn--neutral",
