@@ -523,10 +523,10 @@
           "type": "text_block",
           "settings": {
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Product Review: Meet Koi",
+            "text": "<p>Meet Koi, the latest eco-friendly vibrator here at Love Not War, a full-headed wand vibrator that proves that petite can be powerful.<\/p>",
             "button_text": "Learn more",
-            "button_url": "",
+            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/product-review-meet-koi",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
