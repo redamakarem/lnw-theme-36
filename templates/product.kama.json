@@ -193,10 +193,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-0": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/8._Kama_1.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "Designed by Experts",
+            "text": "<p>Kama’s surface was designed with the clit in mind too, helping you explore your body.<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -207,10 +208,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-1": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/8._Kama_2.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "Highest of Quality",
+            "text": "<p>Kama is perfectly smooth, with no split lines, ensuring the body-safe silicone is super soft to the touch.<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -221,10 +223,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-2": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/8._Kama_3.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "Naughty Lake Days Approved",
+            "text": "<p>Kama is fully waterproof, meaning it will withstand a long soak in the bath!<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -278,11 +281,11 @@
         "custom-1": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
             "title": "Our dedication to sustainability.",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>KAMA’s inner body and end ring is made with 100% recycled aluminium. The motor back in the base is made with a plastic that is biodegradable, and our logo is lovingly engraved onto the toy with a laser, so there is no ink or nasty chemicals used. <\/p><p>Did you know that our discreet packaging comes in it’s original colour? This is because we want to use as little water or chemicals as possible, therefore we don’t dye our boxes. They are also sealed with earth-friendly glue, and the ink used on our packaging is soy-ink, a sustainable solution.<\/p><p>When you chose to shop with Love Not War, your clit AND the Eath will thank you. <\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
@@ -315,35 +318,15 @@
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0": {
           "type": "review",
           "settings": {
-            "title": "Jeremy Usborne",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
-          }
-        },
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1": {
-          "type": "review",
-          "settings": {
-            "title": "Willy Bridge",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
-          }
-        },
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2": {
-          "type": "review",
-          "settings": {
-            "title": "Kenneth Powell",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
+            "title": "Toronto Sun",
+            "subheading": "Media",
+            "review_text": "Easy on the eyes and the planet, this sleek sexual wellness toy comes in minimal packaging and is made with recycled aluminum.",
+            "review_url": "https:\/\/torontosun.com\/life\/sex-files\/sex-files-new-pleasure-devices-focuses-on-people-with-disabilities-and-planet"
           }
         }
       },
       "block_order": [
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0",
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1",
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2"
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0"
       ],
       "settings": {
         "show_featured_image": false,
@@ -364,11 +347,11 @@
         "imgtxt-0": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
-            "title": "Because sustainability is sexy",
+            "title": "Because every body is different and every G-spot unique",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>Do you love the feeling of your G-spot being deeply massaged by rumbly, silky smooth vibrations? Then you and KAMA are a match made in heaven. We have tailored and angled the design of KAMA’s head to provide an intense sensation. Although great for G-spot stimulation, KAMA’s surface was designed with the clit in mind too, helping you explore your body. <\/p><p>A versatile shape, powerful rumbling motor, multiple speeds & patterns and a form designed to fit most bodies. KAMA’s was designed by experts, so that the tight neck makes the curved bulbous head appear larger. KAMA is perfectly smooth, with no split lines, ensuring the body safe silicone is super soft to the touch. So what are you waiting for? Let KAMA help you reach unexplored places.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
