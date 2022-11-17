@@ -193,10 +193,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-0": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5._Gra_1.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "Perfect for Couples",
+            "text": "<p>Hold Grá at the base of the shaft for a mind-blowing BJ, that vibrates the penis.<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -207,10 +208,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-1": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5._Gra_2.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "Designed by Experts",
+            "text": "<p>Grá has been uniquely designed with a twisting texture to create added stimulation when inserting.<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -221,10 +223,11 @@
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-2": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5._Gra_3.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
+            "title": "A Great Personal Massager",
+            "text": "<p>Grá is powerful and offers deep rumbling sensations that vibrate deep on the targeted area<\/p>",
+            "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
@@ -278,11 +281,11 @@
         "custom-1": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
             "title": "Our dedication to sustainability.",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>GRÁ’s inner body and end ring is made with 100% recycled aluminium and uses the minimum amount of silicone needed. The motor back in the base is made with a plastic that is biodegradable, and our logo is lovingly engraved onto the toy with a laser, so there is no ink or nasty chemicals used. <\/p><p>Our toys will come with a white, sleek travel bag, made from tencel lyocell. We use this material, because it’s better for the environment than other materials. It does not use harmful chemicals in the production process, and the earth friendly ink we use to print our logo on the bag is easily trasnferabble and long lasting. <\/p><p>Tencel is also less likely to gather bacteria and other nasties that can transfer to the toy. It also requires less energy and water than conventional cotton, and as it’s plant-derived, it is bio degradable. If that’s not enough, tencel is also considerably thicker, to help protect the product.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
@@ -315,35 +318,25 @@
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0": {
           "type": "review",
           "settings": {
-            "title": "Jeremy Usborne",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
+            "title": "Daily Dot",
+            "subheading": "Media",
+            "review_text": "Whether you love external stimulation or feeling pleasure from the inside out, Love Not War’s Grá vibrator has you covered.",
+            "review_url": "https:\/\/www.dailydot.com\/nsfw\/best-lesbian-sex-toys\/"
           }
         },
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1": {
           "type": "review",
           "settings": {
-            "title": "Willy Bridge",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
-          }
-        },
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2": {
-          "type": "review",
-          "settings": {
-            "title": "Kenneth Powell",
-            "subheading": "Industry Expert",
-            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
-            "review_url": ""
+            "title": "Ruby Scott",
+            "subheading": "Media",
+            "review_text": "Love not war offer a range of toys that give you sustainable orgasms.",
+            "review_url": "https:\/\/rubyscott.com\/rubys-top-three-touchables-sex-toy-talk-part-1\/"
           }
         }
       },
       "block_order": [
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0",
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1",
-        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2"
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1"
       ],
       "settings": {
         "show_featured_image": false,
@@ -364,11 +357,11 @@
         "imgtxt-0": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
-            "title": "Because sustainability is sexy",
+            "title": "Changing it up is fun!",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>GRÁ head will help you feel different sensations deep, deep inside. With a textured surface, powerful vibrations and a uniquely contoured head, GRÁ will fill you with pleasure and leave you wanting to explore more. GRÁ head’s unique pattern and texture invites you to explore vaginal and clitoral stimulation, and discover your favourite setting, while rumbling through its multiple speeds and patterns. <\/p><p>GRÁ head has been uniquely designed with a twisting texture to create added stimulation when inserting, and using externally. If size is your thing, GRÁ is the largest insertible head across the entire Love Not War range. It’s head is soft and malleable, giving you maximum comfort when using. <\/p><p>GRÁ is powerful and offers deep rumbling sensations that vibrate deep on the targeted area. <\/p><p>Please note that this is the head only, if you do not own a Love Not War vibrating base, this will need to be purchased.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
