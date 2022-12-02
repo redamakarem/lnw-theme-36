@@ -524,10 +524,10 @@
           "settings": {
             "bg_position": "center-center",
             "title": "What IS A Wand Vibrator, And Why Is It So Good?",
-            "text": "<p>Meet Koi, the latest eco-friendly vibrator here at Love Not War, a full-headed wand vibrator that proves that petite can be powerful.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/product-review-meet-koi",
-            "button_color": "btn--neutral",
+            "text": "<p>Since their rise to popularity, wand vibrators are still a favourite. With their rounded heads, long handles and deep vibrations they are a great choice for all-over pleasure. <\/p>",
+            "button_text": "Read more",
+            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/what-is-a-wand-vibrator-and-why-is-it-so-good",
+            "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
             "video_link": ""
