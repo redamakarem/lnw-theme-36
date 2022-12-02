@@ -24,6 +24,7 @@
         },
         "08fae93e-35b6-42f6-a584-00f7d3eab811": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
           }
         },
@@ -189,6 +190,7 @@
     },
     "3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9": {
       "type": "section-columns",
+      "disabled": true,
       "blocks": {
         "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-0": {
           "type": "text_block",
@@ -278,11 +280,11 @@
         "custom-1": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
-            "title": "Our dedication to sustainability.",
+            "title": "Good to you, your body and the earth",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>Using only sustainable and body-safe materials, right down to the soy ink on our packaging, we have created a range of eco-friendly sex toys that makes no compromises when it comes to your pleasure or the planet.<\/p><p>Made from locally sourced sustainable materials, in our custom-built green-energy powered factory, our sex toys are both safe for your body and the environment.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
@@ -311,6 +313,7 @@
     },
     "0db8b487-6423-46b7-b692-f556bb1eb806": {
       "type": "section-reviews",
+      "disabled": true,
       "blocks": {
         "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0": {
           "type": "review",
@@ -364,11 +367,11 @@
         "imgtxt-0": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
-            "title": "Because sustainability is sexy",
+            "title": "No compromise between pleasure or the planet",
             "heading_size": 7,
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text": "<p>We have been nominated for several top industry awards including ‘Progressive Sex Toy Company’, ‘New Pleasure Company of the Year’,  ‘Luxury Pleasure Product: Gra’ and also for a Green Product Award. And we are currently a finalist in the iF Design Awards.<\/p><p>Our products are not only eco-friendly but are also high-quality products that are built to last. We are the world's leading eco-friendly vibrator brand for a reason.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
@@ -500,6 +503,7 @@
     },
     "137a3d5e-a3d0-491c-bf28-2760fcdba860": {
       "type": "section-columns",
+      "disabled": true,
       "blocks": {
         "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-0": {
           "type": "text_block",
@@ -564,6 +568,7 @@
     },
     "reviews": {
       "type": "reviews",
+      "disabled": true,
       "settings": {
         "enable_product_reviews": true,
         "enable_accordion": false,
