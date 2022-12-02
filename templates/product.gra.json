@@ -499,11 +499,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/How_to_Introduce_a_Sex_Toy_into_your_Relationship.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
+            "title": "How to Introduce a Sex Toy into your Relationship",
             "text": "<p>Being comfortable enough to talk openly about desires can take time, however, introducing sex toys or other desires such as dressing up, can be a step in that journey to being open with one another. <\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
+            "button_text": "Read more",
+            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/how-to-introduce-a-sex-toy-into-your-relationship",
+            "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
