@@ -244,7 +244,7 @@
       "settings": {
         "title": "",
         "align_text": "text-center",
-        "width": "wrapper--full",
+        "width": "wrapper",
         "equalize_height": true,
         "photo_aspect_ratio": 1,
         "enable_image": true,
@@ -499,7 +499,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/How_to_Introduce_a_Sex_Toy_into_your_Relationship.png",
             "bg_position": "center-center",
-            "title": "How to Introduce a Sex Toy into your Relationship",
+            "title": "How To Introduce A Sex Toy Into Your Relationship",
             "text": "<p>Being comfortable enough to talk openly about desires can take time, however, introducing sex toys or other desires such as dressing up, can be a step in that journey to being open with one another. <\/p>",
             "button_text": "Read more",
             "button_url": "shopify:\/\/blogs\/love-not-war-blog\/how-to-introduce-a-sex-toy-into-your-relationship",
@@ -529,7 +529,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Finding_the_right_toy_for_you.png",
             "bg_position": "center-center",
-            "title": "Finding the right toy for you",
+            "title": "Finding The Right Toy For You",
             "text": "<p>We created a ‘beginners’ guide to ensure you make an informed choice! So depending on your preferences, we’ve made your choice that little bit easier.<\/p>",
             "button_text": "Read more",
             "button_url": "shopify:\/\/blogs\/love-not-war-blog\/finding-the-right-toy-for-you",
