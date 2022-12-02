@@ -508,10 +508,10 @@
           "type": "text_block",
           "settings": {
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
+            "title": "How to Choose Your First Vibrator",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
+            "button_text": "Read more",
+            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/how-to-choose-your-first-vibrator",
             "button_color": "btn--neutral",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
