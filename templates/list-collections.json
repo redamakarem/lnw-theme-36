@@ -1,1 +1,59 @@
-{"sections":{"main":{"type":"list-collections","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "list-collections",
+      "blocks": {
+        "c4216f32-79bd-45d1-a441-092b0d5b1a93": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundle",
+            "collection_name": "Bundles",
+            "bg_position": "center-center"
+          }
+        },
+        "aeceeddb-baf3-4f31-845a-9b7e2f84c33c": {
+          "type": "collection",
+          "settings": {
+            "collection": "vibrators",
+            "collection_name": "Vibrators",
+            "bg_position": "center-center"
+          }
+        },
+        "11b1ad32-d0f0-4e17-8040-75ac2b88a47d": {
+          "type": "collection",
+          "settings": {
+            "collection": "heads",
+            "collection_name": "Heads",
+            "bg_position": "center-center"
+          }
+        },
+        "2406b906-87b8-4468-9876-8b48da192768": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "collection_name": "",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "c4216f32-79bd-45d1-a441-092b0d5b1a93",
+        "aeceeddb-baf3-4f31-845a-9b7e2f84c33c",
+        "11b1ad32-d0f0-4e17-8040-75ac2b88a47d",
+        "2406b906-87b8-4468-9876-8b48da192768"
+      ],
+      "settings": {
+        "display_type": "selected",
+        "title": "Collections",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

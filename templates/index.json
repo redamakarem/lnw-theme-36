@@ -19,7 +19,7 @@
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "shopify:\/\/collections",
             "button_color": "btn--white",
@@ -41,7 +41,7 @@
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "shopify:\/\/collections",
             "button_color": "btn--white",
@@ -187,9 +187,9 @@
       ],
       "settings": {
         "title": "",
-        "logo_opacity": 65,
+        "logo_opacity": 50,
         "bg_color": "#435562",
-        "color": "",
+        "color": "#ffffff",
         "padding_top": 46,
         "padding_bottom": 46
       }
@@ -354,7 +354,7 @@
             "text_size": 3,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "",
             "button_color": "btn--white",
