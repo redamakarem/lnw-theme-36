@@ -281,7 +281,7 @@
         "custom-1": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
             "title": "Our dedication to sustainability.",
             "heading_size": 7,
@@ -367,7 +367,7 @@
         "imgtxt-0": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "",
             "subheading_size": 3,
             "title": "Because sustainability is sexy",
             "heading_size": 7,
