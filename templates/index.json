@@ -337,6 +337,16 @@
         "padding_bottom": 100
       }
     },
+    "9582d213-0a88-49e9-9f2f-1e88e746dbd2": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
     "1660686550db8b3a9c": {
       "type": "section-custom-content",
       "blocks": {
@@ -391,8 +401,28 @@
         "width": "wrapper--full",
         "padding": false,
         "borders": false,
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 0
+      }
+    },
+    "faa3705c-1346-411e-a5d2-3b7b99ac8e09": {
+      "type": "section-before-after",
+      "settings": {
+        "heading": "One base, 8 toys and counting.",
+        "description": "<p>Share success stories using before and after images to demonstrate how effective your products are.<\/p>",
+        "link_text": "Shop now",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "image_1": "shopify:\/\/shop_images\/What_IS_a_wand_vibrator_and_why_is_it_sooo_good.png",
+        "image_2": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
+        "aspect_ratio": 1,
+        "image_position": "center-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "1664530854617d9b35": {
@@ -440,8 +470,8 @@
         "bg_color": "#fa5e41",
         "color": "#ffffff",
         "card_bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "166452763576c5c04e": {
@@ -459,7 +489,7 @@
         "show_comments": false,
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
+        "padding_top": 12,
         "padding_bottom": 0
       }
     },
@@ -614,7 +644,9 @@
     "16593742018d4c775a",
     "165930724844934d89",
     "icons",
+    "9582d213-0a88-49e9-9f2f-1e88e746dbd2",
     "1660686550db8b3a9c",
+    "faa3705c-1346-411e-a5d2-3b7b99ac8e09",
     "1664530854617d9b35",
     "166452763576c5c04e",
     "16593604036b256fa6",
