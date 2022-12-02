@@ -537,12 +537,13 @@
         "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-2": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Come_as_You_Are__A_Guide_to_Different_Types_of_Orgasms_and_How_to_Reach_Them.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
+            "title": "Come as You Are: A Guide to Different Types of Orgasms and How to Reach Them",
+            "text": "<p>Orgasming has many different names and comes in many different shapes and sizes. While it can be a fun part of sex, it is not and should not be the only goal. Sex is about the journey!<\/p>",
+            "button_text": "Read more",
+            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/come-as-you-are-a-guide-to-different-types-of-orgasms-and-how-to-reach-them",
+            "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
