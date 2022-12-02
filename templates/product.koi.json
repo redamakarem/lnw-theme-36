@@ -246,7 +246,7 @@
         "align_text": "text-center",
         "width": "wrapper--full",
         "equalize_height": true,
-        "photo_aspect_ratio": 0.7,
+        "photo_aspect_ratio": 1,
         "enable_image": true,
         "bg_color": "",
         "color": "",
@@ -507,13 +507,13 @@
         "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-0": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2022-04-28_at_10.46.03.png",
+            "image": "shopify:\/\/shop_images\/Product_Review__Meet_Koi.png",
             "bg_position": "center-center",
-            "title": "What IS a wand vibrator, and why is it sooo good?!",
-            "text": "<p>We all know the fun is in the journey and not the end result, but for those paying attention to the end result, did you know that only 30% of women orgasm from penetration alone? <\/p>",
-            "button_text": "Learn more",
-            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/what-is-a-wand-vibrator-and-why-is-it-so-good",
-            "button_color": "btn--neutral",
+            "title": "Product Review: Meet Koi",
+            "text": "<p>Meet Koi, the latest eco-friendly vibrator here. Small in stature but causing toe-curling pleasure…<\/p>",
+            "button_text": "Read more",
+            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/product-review-meet-koi",
+            "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
