@@ -1,0 +1,626 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "price_and_title": {
+          "type": "price_and_title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "info_page": "",
+            "show_quantity": true,
+            "show_remaining": true,
+            "show_payment_button": true,
+            "subscriptions_enable_selectors": true
+          }
+        },
+        "08fae93e-35b6-42f6-a584-00f7d3eab811": {
+          "type": "upsell",
+          "settings": {
+          }
+        },
+        "e532ace9-b368-4cd5-ab4c-88baa041d0e0": {
+          "type": "siblings",
+          "disabled": true,
+          "settings": {
+            "siblings_collection": "{{ product.metafields.theme.siblings.value }}",
+            "sibling_color": "{{ product.metafields.theme.sibling_color.value }}"
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "tabs",
+            "title_1": "Specs",
+            "raw_content_1": "<p>{{ product.metafields.custom.specifications | metafield_tag }}<\/p>",
+            "title_2": "",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "price_and_title",
+        "form",
+        "08fae93e-35b6-42f6-a584-00f7d3eab811",
+        "e532ace9-b368-4cd5-ab4c-88baa041d0e0",
+        "pickup",
+        "tabs"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "block_padding": 30,
+        "padding_top": 90,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "section-accordion",
+      "blocks": {
+        "faq-1": {
+          "type": "text",
+          "settings": {
+            "title": "Made from body & earth safe materials",
+            "text": "<p><strong>- The earth and your clit will thank you<\/strong><\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "text",
+          "settings": {
+            "title": "Compatible with all Love Not War vibe heads",
+            "text": "<p><strong>- Only 1 rechargeable battery needed for multiple toys<\/strong><\/p>"
+          }
+        },
+        "faq-3": {
+          "type": "text",
+          "settings": {
+            "title": "Waterproof",
+            "text": "<p><strong>- Long baths, quick showers and naughty lake days approved<\/strong><\/p>"
+          }
+        },
+        "faq-4": {
+          "type": "text",
+          "settings": {
+            "title": "Repairable and recyclable",
+            "text": "<p><strong>- We’re built to last<\/strong><\/p>"
+          }
+        },
+        "88e26e31-f944-497d-9810-34b015507649": {
+          "type": "text",
+          "settings": {
+            "title": "Quiet",
+            "text": "<p><strong>- Because some things you might like to keep to yourself<\/strong><\/p>"
+          }
+        },
+        "f3cc8235-02ed-422f-b0f1-e6cbf6038dc4": {
+          "type": "text",
+          "settings": {
+            "title": "Travel lock",
+            "text": "<p><strong>- You could always blame your phone…<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4",
+        "88e26e31-f944-497d-9810-34b015507649",
+        "f3cc8235-02ed-422f-b0f1-e6cbf6038dc4"
+      ],
+      "settings": {
+        "title": "Features",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "shipping": {
+      "type": "section-accordion",
+      "blocks": {
+        "shipping-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shipment",
+            "icon_color": "#aaaaaa",
+            "title": "Conscientious shipping",
+            "text": "<p>At Love Not War we make it a priority for our shipping process to match our products, in that it is as ‘green’ as possible.  Everything from our shipping partners to our packaging is taken into consideration.<\/p>"
+          }
+        },
+        "shipping-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_color": "#aaaaaa",
+            "title": "Fast & Discreet Shipping",
+            "text": "<p>Once your order has been shipped you should receive it within 5 working days. <\/p><p>Shipping prices will depend on your location:<\/p><p>UK -  Free shipping<\/p><p>USA -  Free shipping<\/p><p>Rest of world - £20<\/p><p>You may also care to know that all Love Not War products are delivered in completely discreet packaging with no clues as to what is inside the package.<\/p>"
+          }
+        },
+        "shipping-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#aaaaaa",
+            "title": "Get in touch",
+            "text": "<p>We currently ship to the UK, Europe and the USA. However, it is important to note that we are always adding more markets to our shipment list, so if you are currently living outside of these areas, please feel free to get in touch with us at <a href=\"mailto:hello@l-n-w.com\"><span style=\"text-decoration:underline\">hello@l-n-w.com<\/span><\/a> and we will see what is possible. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "shipping-0",
+        "shipping-1",
+        "shipping-2"
+      ],
+      "settings": {
+        "title": "Shipping",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-0": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-1": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-2": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-0",
+        "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-1",
+        "template--15328738771037__3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9-16681563517d9d26b8-2"
+      ],
+      "settings": {
+        "title": "How To Play With The Toy",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1,
+        "enable_image": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lifestyle_resize.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "custom-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Our dedication to sustainability.",
+            "heading_size": 7,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#f7f7f7",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "custom-0",
+        "custom-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper",
+        "padding": true,
+        "borders": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "0db8b487-6423-46b7-b692-f556bb1eb806": {
+      "type": "section-reviews",
+      "blocks": {
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0": {
+          "type": "review",
+          "settings": {
+            "title": "Jeremy Usborne",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        },
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1": {
+          "type": "review",
+          "settings": {
+            "title": "Willy Bridge",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        },
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2": {
+          "type": "review",
+          "settings": {
+            "title": "Kenneth Powell",
+            "subheading": "Industry Expert",
+            "review_text": "Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-0",
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-1",
+        "template--15322087489629__0db8b487-6423-46b7-b692-f556bb1eb806-166660175023bc4dd9-2"
+      ],
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "text_align": "text-center",
+        "text_size": 4,
+        "bg_color": "",
+        "color": "",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "imgtxt": {
+      "type": "section-custom-content",
+      "blocks": {
+        "imgtxt-0": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Because sustainability is sexy",
+            "heading_size": 7,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#f7f7f7",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        },
+        "imgtxt-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chase-yi-LhiUBDAO-wI-unsplash_1_9c9d0acc-87d7-4c64-bac4-70e0e187bad5.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "imgtxt-0",
+        "imgtxt-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper",
+        "padding": true,
+        "borders": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "6deefded-92d9-41dd-9827-1785eea0451f": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_link_bg": "",
+        "video_link": "",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "Video",
+        "heading_size": 8,
+        "description": "Tell your brand's story through images.",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "39bccd20-ff8b-4126-969f-f1383a60be7e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--15322087489629__39bccd20-ff8b-4126-969f-f1383a60be7e-1666258120361a7dbe-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "One button, countless functions.",
+            "heading_size": 7,
+            "text": "<p>Unlike other toys that users may find confusing, Love Not War has only one button for every function. It is easy to locate (at the bottom of the base), leaving no problems when the lights go out… the button will illuminate when on, or charging so that you know it’s working! It is also equipped with a travel lock, to save any awkwardness at the airport. <\/p><p>To test out the toys 4 intensity levels and 7 vibration patterns, simply click the button to feel the next pattern. If you’re having trouble, there is a card that comes with the toy illustrating how all patterns feel. <\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        },
+        "e3b91c15-be79-4e4b-996b-24bcb2e67d13": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Did you know?",
+            "heading_size": 7,
+            "text": "<p>When you purchase your first Love Not War vibrator, you will notice that the head is detachable. This means you only need one vibrating base for the entire heads range. This sleek and innovative design is one of the reasons we have won 5 awards in just one year. <\/p><p>With over 20 years experience in this industry, Love Not War’s co-founders carefully designed the vibrating base and each head with your pleasure in mind. Each vibrating base has been designed, so that when charging it does not look like a sex toy. The base is made from recycled aluminium, leaving a high quality luxury finish on the toy. <\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15322087489629__39bccd20-ff8b-4126-969f-f1383a60be7e-1666258120361a7dbe-1",
+        "e3b91c15-be79-4e4b-996b-24bcb2e67d13"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper",
+        "padding": false,
+        "borders": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "137a3d5e-a3d0-491c-bf28-2760fcdba860": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-0": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-1": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-2": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-0",
+        "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-1",
+        "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1,
+        "enable_image": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "settings": {
+        "enable_product_reviews": true,
+        "enable_accordion": false,
+        "padding_top": 20,
+        "padding_bottom": 30
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "related_products_enable": true,
+        "limit": 4,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 4,
+        "product_recently_heading": "Recently viewed",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "f2244ae4-7590-4eed-b3dc-e5f75c3ae834": {
+      "type": "section-blog",
+      "disabled": true,
+      "settings": {
+        "blog_name": "",
+        "title": "Blog posts",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "shipping",
+    "3632dbf8-b6fd-4ae3-adc1-e60d0d21a9f9",
+    "custom",
+    "0db8b487-6423-46b7-b692-f556bb1eb806",
+    "imgtxt",
+    "6deefded-92d9-41dd-9827-1785eea0451f",
+    "39bccd20-ff8b-4126-969f-f1383a60be7e",
+    "137a3d5e-a3d0-491c-bf28-2760fcdba860",
+    "reviews",
+    "related",
+    "f2244ae4-7590-4eed-b3dc-e5f75c3ae834"
+  ]
+}
