@@ -507,12 +507,13 @@
         "template--15322087489629__137a3d5e-a3d0-491c-bf28-2760fcdba860-16662600880686abba-0": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/How_to_Choose_Your_First_Vibrator.png",
             "bg_position": "center-center",
             "title": "How to Choose Your First Vibrator",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text": "<p>We’ve put together our best advice on how to pick your first vibrator. Whether you’re an old hand at masturbating or new to trying self-pleasure!<\/p>",
             "button_text": "Read more",
             "button_url": "shopify:\/\/blogs\/love-not-war-blog\/how-to-choose-your-first-vibrator",
-            "button_color": "btn--neutral",
+            "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
@@ -554,8 +555,8 @@
       ],
       "settings": {
         "title": "",
-        "align_text": "text-left",
-        "width": "wrapper--full",
+        "align_text": "text-center",
+        "width": "wrapper",
         "equalize_height": true,
         "photo_aspect_ratio": 1,
         "enable_image": true,
