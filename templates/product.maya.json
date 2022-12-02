@@ -244,7 +244,7 @@
       "settings": {
         "title": "",
         "align_text": "text-center",
-        "width": "wrapper--full",
+        "width": "wrapper",
         "equalize_height": true,
         "photo_aspect_ratio": 1,
         "enable_image": true,
@@ -548,9 +548,9 @@
       "settings": {
         "title": "",
         "align_text": "text-center",
-        "width": "wrapper--full",
+        "width": "wrapper",
         "equalize_height": true,
-        "photo_aspect_ratio": 0.7,
+        "photo_aspect_ratio": 1,
         "enable_image": true,
         "bg_color": "",
         "color": "",
