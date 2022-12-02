@@ -83,7 +83,7 @@
         "type": "header",
         "settings": {
           "header_sticky": false,
-          "header_style": "logo_above",
+          "header_style": "logo_beside",
           "icon_family": "clean",
           "icon_size": "regular",
           "icon_as_circle": false,
