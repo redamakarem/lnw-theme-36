@@ -519,11 +519,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Finding_the_right_toy_for_you.png",
             "bg_position": "center-center",
-            "title": "Add a title or tagline",
+            "title": "Finding The Right Toy For You",
             "text": "<p>We created a ‘beginners’ guide to ensure you make an informed choice! So depending on your preferences, we’ve made your choice that little bit easier.<\/p>",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_color": "btn--neutral",
+            "button_text": "Read more",
+            "button_url": "shopify:\/\/blogs\/love-not-war-blog\/finding-the-right-toy-for-you",
+            "button_color": "btn--primary",
             "button_style": "standard__cta caps--large",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
