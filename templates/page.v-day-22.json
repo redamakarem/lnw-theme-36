@@ -2,11 +2,262 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "#ffffff"
+      }
+    },
+    "16430989487bd5986b": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/plant_trees_send_e-_cards_this_Valentine_s_Day_1_1.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "164309908348bffe5b": {
+      "type": "section-rich-text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#ffffff"
+      }
+    },
+    "164309918144c1ed44": {
+      "type": "section-columns",
+      "blocks": {
+        "16430991811cd8b117-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Valentines_Day_Card_001_Charlotte_Willcox.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "Get the card",
+            "button_url": "shopify:\/\/products\/greeting-cards",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "16430991811cd8b117-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_66.png",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "GET THE CARD",
+            "button_url": "shopify:\/\/products\/greeting-cards",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "16430991811cd8b117-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_64.png",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "GET THE CARD",
+            "button_url": "shopify:\/\/products\/greeting-cards",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "16430991811cd8b117-0",
+        "16430991811cd8b117-2",
+        "16430991811cd8b117-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1.1,
+        "enable_image": true,
+        "bg_color": "#ffffff"
+      }
+    },
+    "164309939782d184e1": {
+      "type": "section-rich-text",
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#ffffff"
+      }
+    },
+    "16431017727aa27b5f": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16431017711ecfde6a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Charlotte_Willcox_x_love_not_war.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16431017711ecfde6a-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "About the artist",
+            "text": "<p>“<em>Love Not War is a breath of fresh air and I <\/em>feel excited knowing that my art could help people to live more sustainably. The simple act of switching to an e-card instead of a physical card can have such a big impact on the planet. This can be the first small step towards changing our consumer habits and starting a lifelong journey towards more sustainable living.”<\/p><p>Charlotte Willcox is a British illustrator and designer who graduated from the University of Southampton with a bachelors degree in Graphic Arts. Charlotte is best known for her love of creating art based around feminism, self-love, and celebrating our bodies, all things we love too - a match made in self-love heaven!<\/p><p>Charlotte's work is featured in The Vagina Museum and she has partnered with fellow sexual wellness brands like Always, Tampax, Lovehoney, Erika Lust Films and more. <\/p><p>We’re excited to see Love Not War now added to her repertoire and we hope that the simple act of switching to an e-card instead of a physical one is a small yet impactful step that we can collectively take towards a healthier planet.  <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16431017711ecfde6a-0",
+        "16431017711ecfde6a-1"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "padding": true,
+        "borders": false
+      }
+    },
+    "164310178331c486c3": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1643101782f1cd33b6-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "About One Tree Planted",
+            "text": "<p>One Tree Planted is a non-profit organisation that is committed to restoring the world’s forests. <\/p><p>Trees help clean the air we breathe, filter the water we drink and provide habitat to over 80% of the world's terrestrial biodiversity.<\/p><p>Since 2014, One Tree Planted has planted over 40 million trees across 43+ countries in North America, Latin America, Africa, Asia, Europe and the Pacific.<\/p><p>And now you can help too! With every purchase on Love Not War, we commit to planting a tree.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#ffffff",
+            "button_text": "Learn More",
+            "button_url": "shopify:\/\/pages\/one-tree-planted",
+            "button_color": "btn--link",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1643101782f1cd33b6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_71.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1643101782f1cd33b6-1",
+        "1643101782f1cd33b6-0"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "padding": true,
+        "borders": false
+      }
+    },
+    "16431020196f8705bb": {
+      "type": "section-rich-text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1643103131e1b6b7b9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16431031310b28e2b4-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Grab your card here",
+            "text": "",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ffffff",
+            "button_text": "get the card",
+            "button_url": "shopify:\/\/products\/greeting-cards",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "4f086c4e-6d82-4dc9-b09c-e0f56667fbd7": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "product": "greeting-cards",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16431031310b28e2b4-1",
+        "4f086c4e-6d82-4dc9-b09c-e0f56667fbd7"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16430989487bd5986b",
+    "164309908348bffe5b",
+    "164309918144c1ed44",
+    "164309939782d184e1",
+    "16431017727aa27b5f",
+    "164310178331c486c3",
+    "16431020196f8705bb",
+    "1643103131e1b6b7b9"
   ]
 }
