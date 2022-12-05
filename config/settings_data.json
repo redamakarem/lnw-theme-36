@@ -37,6 +37,7 @@
     "parallax_strength": 15,
     "product_grid_outline": false,
     "button_radius_style": "rounded",
+    "show_arrow": true,
     "show_scroll_top_button": true,
     "swatch_style": "circle",
     "instagram_link": "https:\/\/www.instagram.com\/_lovenotwar\/",
