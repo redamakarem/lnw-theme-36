@@ -24,7 +24,7 @@
         "bg_position": "center-center",
         "height": "screen-height-three-quarters",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "title": "",
         "heading_size": 11,
@@ -32,7 +32,7 @@
         "text_size": 5,
         "flex_align": "align--middle-center",
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "link_text": "",
         "link": "",
         "button_color": "btn--white",
@@ -45,7 +45,7 @@
         "bg_position": "center-center",
         "height": "screen-height-three-quarters",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "title": "Image banner",
         "heading_size": 11,
@@ -53,7 +53,7 @@
         "text_size": 5,
         "flex_align": "align--middle-center",
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "link_text": "Download the kit",
         "link": "https:\/\/drive.google.com\/drive\/folders\/111OjmtE-nTHasJGxhJL8oakBzE8B6H-B",
         "button_color": "btn--white",
@@ -153,12 +153,53 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "a9bc8cfc-b790-4b39-b2d2-738471ba7c87": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--15366645350493__a9bc8cfc-b790-4b39-b2d2-738471ba7c87-1670340180dce20d51-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "template--15366645350493__a9bc8cfc-b790-4b39-b2d2-738471ba7c87-1670340180dce20d51-1": {
+          "type": "heading",
+          "settings": {
+            "title": "About LOVE NOT WAR",
+            "text_size": 8
+          }
+        },
+        "template--15366645350493__a9bc8cfc-b790-4b39-b2d2-738471ba7c87-1670340180dce20d51-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LOVE NOT WAR is a British sustainable sex toy brand that creates well-designed, well-thought-out, eco-friendly products that don’t cost the earth. <\/p><p>LOVE NOT WAR was launched in 2021 via a partnership with Lovehoney and provides luxury high-end products that are also eco-conscious. From design right through to recycling their own materials, LOVE NOT WAR has full control of the manufacturing process in their own custom-built factory, ensuring that every step in production is as sustainable as possible. They have created a product range that is eco-conscious without compromising on design, functionality, and quality.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15366645350493__a9bc8cfc-b790-4b39-b2d2-738471ba7c87-1670340180dce20d51-0",
+        "template--15366645350493__a9bc8cfc-b790-4b39-b2d2-738471ba7c87-1670340180dce20d51-1",
+        "template--15366645350493__a9bc8cfc-b790-4b39-b2d2-738471ba7c87-1670340180dce20d51-2"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
     "793db8db-e84f-446e-82fd-4e992b51b149",
     "04d619b4-5f48-4ed5-9abf-7b974e5c634a",
-    "8e7a6d6b-52e0-48bf-9a32-47dbdbb28853"
+    "8e7a6d6b-52e0-48bf-9a32-47dbdbb28853",
+    "a9bc8cfc-b790-4b39-b2d2-738471ba7c87"
   ]
 }
