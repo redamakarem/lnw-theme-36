@@ -80,7 +80,7 @@
           "settings": {
             "second-column-image": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
             "second-column-heading": "",
-            "second-column-text": "",
+            "second-column-text": "<p><\/p>",
             "second-column-btn-text": "",
             "second-column-btn-link": "",
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
@@ -101,7 +101,7 @@
           "settings": {
             "first-column-image": "shopify:\/\/shop_images\/1.png",
             "first-column-heading": "",
-            "first-column-text": "",
+            "first-column-text": "<p><\/p>",
             "first-column-btn-text": "",
             "first-column-btn-link": "",
             "button_color": "btn--white",
@@ -124,7 +124,7 @@
           "settings": {
             "second-column-image": "shopify:\/\/shop_images\/3.png",
             "second-column-heading": "",
-            "second-column-text": "",
+            "second-column-text": "<p><\/p>",
             "second-column-btn-text": "",
             "second-column-btn-link": "",
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
@@ -407,6 +407,7 @@
     },
     "faa3705c-1346-411e-a5d2-3b7b99ac8e09": {
       "type": "section-before-after",
+      "disabled": true,
       "settings": {
         "heading": "One base, 8 toys and counting.",
         "description": "<p>Share success stories using before and after images to demonstrate how effective your products are.<\/p>",
