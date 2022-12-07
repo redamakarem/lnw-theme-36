@@ -1,5 +1,9 @@
 {
   "general": {
+    "404": {
+      "title": "404 Página Não Encontrada",
+      "subtext_html": "A página que você pediu não existe."
+    },
     "ie11_support_message": "Este site tem certas restrições de navegação. Recomendamos o uso de navegadores web como: Edge, Chrome, Safari ou Firefox.",
     "swatches": {
       "color": "Cor"
@@ -13,10 +17,6 @@
     },
     "size_chart": {
       "size": "Tamanho"
-    },
-    "404": {
-      "title": "404 Página Não Encontrada",
-      "subtext_html": "A página que você pediu não existe."
     },
     "meta": {
       "tags": "Marcado \"{{ tags }}\"",
@@ -36,7 +36,7 @@
       "submit": "Inscrever-se",
       "placeholder": "Endereço de e-mail",
       "thank_you": "Obrigado por se inscrever!",
-      "thank_you_with_code_html": "Obrigado por inscrever-se! Você pode usar este código <span> Desconto de 10% </span> para o próximo pedido!",
+      "thank_you_with_code_html": "Obrigado por inscrever-se! Você pode usar este código <span> Desconto de 10% <\/span> para o próximo pedido!",
       "error_message": "Este cliente já está inscrito!"
     },
     "search": {
@@ -235,7 +235,7 @@
       "city": "Cidade",
       "country": "País",
       "province": "Província",
-      "zip": "Código Postal/CEP",
+      "zip": "Código Postal\/CEP",
       "phone": "Telefone",
       "set_default": "Definir como endereço padrão",
       "add": "Adicionar Endereço",
@@ -327,10 +327,10 @@
       "news_title": "Últimas Notícias"
     },
     "onboarding": {
-      "no_products_html": "Você não tem produtos na sua coleção de Home page. Teste texto aparecerá até que você <a href=\"/admin/custom_collections\">adicione um produto a esta coleção</a>.",
+      "no_products_html": "Você não tem produtos na sua coleção de Home page. Teste texto aparecerá até que você <a href=\"\/admin\/custom_collections\">adicione um produto a esta coleção<\/a>.",
       "add_product": "Escoger produto",
       "product_title": "Título de produto",
-      "no_collections_html": "Você não tem coleções para mostrar aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para irem junto com a Página Inicial padrão.",
+      "no_collections_html": "Você não tem coleções para mostrar aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para irem junto com a Página Inicial padrão.",
       "no_description": "Esta é um exemplo de descrição de produto. Uma vez que você adicionar um produto, este texto irá mudar.",
       "no_content": "Esta seção atualmente não tem conteúdo. Adicione conteúdo a esta seção usando a barra lateral.",
       "collection_image": "Imagem de Coleção",
@@ -422,8 +422,8 @@
         "view_store_info": "Ver as informações da loja",
         "check_other_stores": "Verificar a disponibilidade em outras lojas",
         "pick_up_available": "Retirada disponível",
-        "pick_up_available_at_html": "Retirada disponível em <strong>{{ location_name }}</strong>",
-        "pick_up_unavailable_at_html": "Retirada em <strong>{{ location_name }}</strong> indisponível no momento",
+        "pick_up_available_at_html": "Retirada disponível em <strong>{{ location_name }}<\/strong>",
+        "pick_up_unavailable_at_html": "Retirada em <strong>{{ location_name }}<\/strong> indisponível no momento",
         "unavailable": "Não foi possível carregar a disponibilidade de retirada.",
         "refresh": "Atualizar"
       }
@@ -457,6 +457,51 @@
       "store_login": "Login da Loja",
       "newsletter_signup": "Assine o Boletim de Notícias",
       "login": "Login"
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
