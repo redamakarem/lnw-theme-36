@@ -26547,3 +26547,7 @@ h2.icon__column__text__heading.h5 strong{
     transition: none;
     font-weight: bold;
 }
+
+li[data-powered-link] {
+    display: none !important;
+}
