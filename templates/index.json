@@ -20,7 +20,7 @@
             "bg_color": "",
             "color": "#ffffff",
             "link_text": "",
-            "link": "shopify:\/\/collections",
+            "link": "shopify:\/\/collections\/all",
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--input btn--outline lnw caps"
           }
