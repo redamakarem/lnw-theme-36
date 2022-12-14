@@ -5,13 +5,12 @@
       "blocks": {
         "b40d6da1-bf36-4636-9166-460735536c00": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/THE_PLEASURE.png",
-            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
-            "overlay_opacity": 20,
-            "overlay_color": "#000000",
+            "image": "shopify:\/\/shop_images\/10.png",
+            "mobile_image": "shopify:\/\/shop_images\/10.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#ffffff",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 11,
@@ -30,8 +29,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify:\/\/shop_images\/award_winning_vibes.png",
-            "mobile_image": "shopify:\/\/shop_images\/1080x1080.png",
+            "image": "shopify:\/\/shop_images\/12.png",
+            "mobile_image": "shopify:\/\/shop_images\/12.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -47,11 +46,34 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "de678c11-1541-4f0c-ade3-62e11ba19139": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/11.png",
+            "mobile_image": "shopify:\/\/shop_images\/11.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 11,
+            "description": "",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
         }
       },
       "block_order": [
         "b40d6da1-bf36-4636-9166-460735536c00",
-        "a54f7f45-d133-490b-934a-834450890b7b"
+        "a54f7f45-d133-490b-934a-834450890b7b",
+        "de678c11-1541-4f0c-ade3-62e11ba19139"
       ],
       "settings": {
         "height": "image-height",
