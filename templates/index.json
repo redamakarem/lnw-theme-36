@@ -54,7 +54,7 @@
             "image": "shopify:\/\/shop_images\/11.png",
             "mobile_image": "shopify:\/\/shop_images\/11.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 11,
@@ -62,7 +62,7 @@
             "text_size": 5,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "shopify:\/\/products\/gift-cards",
             "button_color": "btn--white",
@@ -90,7 +90,7 @@
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "WHY CHOOSE LOVE NOT WAR?",
-            "first-column-text": "<p><br\/>Award-winning, sustainable sex toys that don’t cost the earth. <\/p><p>All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
+            "first-column-text": "<p><br\/>Award-winning, sustainable sex toys that don’t cost the earth.  <\/p><p>All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
             "first-column-btn-text": "",
             "first-column-btn-link": "",
             "button_color": "btn--white",
@@ -146,7 +146,7 @@
           "settings": {
             "second-column-image": "shopify:\/\/shop_images\/3.png",
             "second-column-heading": "",
-            "second-column-text": "<p><\/p>",
+            "second-column-text": "",
             "second-column-btn-text": "",
             "second-column-btn-link": "",
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
