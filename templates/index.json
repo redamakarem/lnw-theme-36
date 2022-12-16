@@ -90,7 +90,7 @@
           "type": "first-column-elements",
           "settings": {
             "first-column-heading": "WHY CHOOSE LOVE NOT WAR?",
-            "first-column-text": "<p><br\/>Award-winning, sustainable sex toys that don’t cost the earth.  <\/p><p>All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
+            "first-column-text": "<p>Award-winning, sustainable sex toys that don’t cost the earth.  <\/p><p>All our eco-friendly products make no compromises when it comes to your pleasure or the planet, so you can treat yourself to the pleasure you deserve.<\/p>",
             "first-column-btn-text": "",
             "first-column-btn-link": "",
             "button_color": "btn--white",
@@ -102,7 +102,7 @@
           "settings": {
             "second-column-image": "shopify:\/\/shop_images\/LNW_heads_group_resized_2.jpg",
             "second-column-heading": "",
-            "second-column-text": "<p><\/p>",
+            "second-column-text": "",
             "second-column-btn-text": "",
             "second-column-btn-link": "",
             "second-column-btn-style": "hero__btn btn btn--large btn--outline caps"
@@ -123,7 +123,7 @@
           "settings": {
             "first-column-image": "shopify:\/\/shop_images\/1.png",
             "first-column-heading": "",
-            "first-column-text": "<p><\/p>",
+            "first-column-text": "",
             "first-column-btn-text": "",
             "first-column-btn-link": "",
             "button_color": "btn--white",
