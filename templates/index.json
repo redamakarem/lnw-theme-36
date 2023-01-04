@@ -5,6 +5,7 @@
       "blocks": {
         "b40d6da1-bf36-4636-9166-460735536c00": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "bg_position": "center-center",
             "image": "shopify:\/\/shop_images\/10_2798528b-67d3-413a-abb1-82fce45d7138.png",
@@ -49,6 +50,7 @@
         },
         "de678c11-1541-4f0c-ade3-62e11ba19139": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "bg_position": "center-center",
             "image": "shopify:\/\/shop_images\/11.png",
